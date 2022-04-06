@@ -1,14 +1,13 @@
 <script lang="ts">
-	import Header from '$lib/header/Header.svelte';
+	import Footer from '$lib/Footer.svelte';
+	import Header from '$lib/Header.svelte';
 	import '../global.css';
 </script>
 
-<Header />
-
-<main>
-	<slot />
-</main>
-
-<footer>
-	<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
-</footer>
+<div class="flex flex-col min-h-screen">
+	<main class="flex-1 pt-20">
+		<Header />
+		<slot />
+	</main>
+	<Footer />
+</div>

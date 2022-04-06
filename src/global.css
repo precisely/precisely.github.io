@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-// Font Setup
-
 @font-face {
 	font-family: 'Ageo';
 	font-weight: 100;

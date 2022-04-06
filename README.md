@@ -19,3 +19,11 @@ yarn build
 ```
 
 You can preview the production build with `yarn preview`.
+
+## Updating SVGs
+
+Some SVGs may not be updated through hot reloading. Clear the svelte-kit cache by running the command below.
+
+```
+rm -rf .svelte-kit
+```

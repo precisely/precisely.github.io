@@ -1,9 +1,19 @@
 <script context="module" lang="ts">
-	export const prerender = true;
+	import '$lib/index/index.css';
+
+	import LandingBanner from '$lib/index/LandingBanner.svelte';
+	import StatisticsBanner from '$lib/index/StatisticsBanner.svelte';
+	import TimelineBanner from '$lib/index/TimelineBanner.svelte';
+	import TestimonialBanner from '$lib/index/TestimonialBanner.svelte';
+	import PanelBanner from '$lib/index/PanelBanner.svelte';
 </script>
 
 <svelte:head>
 	<title>Precise.ly</title>
 </svelte:head>
 
-<h1>Precise.ly</h1>
+<LandingBanner />
+<StatisticsBanner />
+<TimelineBanner />
+<PanelBanner />
+<TestimonialBanner />
