@@ -10,10 +10,8 @@
 				<div class="inline-block h-[24px] mb-4">
 					<Logo />
 				</div>
-				<a href="mailto:hello@precisely.com" class="font-medium text-gray-600">
-					hello@precisely.com
-				</a>
-				<div class="text-grey500 font-light">
+				<a href="mailto:hello@precisely.com" class="font-medium"> hello@precisely.com </a>
+				<div class="font-light">
 					<a href="tel:444-326-2222">(444)-326-2222</a>
 					<p class="mt-2">
 						Address: <br />
@@ -22,11 +20,14 @@
 					</p>
 				</div>
 			</div>
-			<div />
+			<div class="flex gap-12">
+				<a sveltekit:prefetch href="/about">About</a>
+				<a sveltekit:prefetch href="/contact">Contact</a>
+			</div>
 		</div>
 
-		<div class="flex justify-center py-8">
-			<span class="text-grey500 font-medium"> © 2022 Precise.ly Inc </span>
+		<div class="flex justify-center py-12">
+			<span class="text-grey600 font-medium">© 2022 Precise.ly Inc</span>
 		</div>
 	</Container>
 </footer>

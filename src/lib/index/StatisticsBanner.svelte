@@ -17,7 +17,7 @@
 <div class="flex items-center py-32 statistics-gradient">
 	<Container>
 		<div class="flex flex-col items-center justify-between">
-			<h2 class="font-semibold text-5xl mb-4">Improve outcomes. Reduce costs.</h2>
+			<h1 class="font-semibold text-5xl mb-4">Improve outcomes. Reduce costs.</h1>
 			<p class="text-grey600 text-xl mb-8">Our best-in-class surgical care platform</p>
 			<div class="flex gap-2 mb-24">
 				{#each stats as stat}

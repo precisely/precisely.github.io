@@ -6,6 +6,7 @@
 	import TimelineBanner from '$lib/index/TimelineBanner.svelte';
 	import TestimonialBanner from '$lib/index/TestimonialBanner.svelte';
 	import PanelBanner from '$lib/index/PanelBanner.svelte';
+	import CtaBanner from '$lib/index/CtaBanner.svelte';
 </script>
 
 <svelte:head>
@@ -17,3 +18,4 @@
 <TimelineBanner />
 <PanelBanner />
 <TestimonialBanner />
+<CtaBanner />
