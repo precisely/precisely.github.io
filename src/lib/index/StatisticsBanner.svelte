@@ -14,7 +14,7 @@
 	];
 </script>
 
-<div class="flex items-center py-32 statistics-gradient">
+<div id="statistics" class="flex items-center py-32 statistics-gradient">
 	<Container>
 		<div class="flex flex-col items-center justify-between">
 			<h1 class="font-semibold text-5xl mb-4">Improve outcomes. Reduce costs.</h1>
