@@ -1,11 +1,16 @@
 <script lang="ts">
-	import TimelineGrid from '$lib/index/TimelineGrid.svelte';
+	import TimelineGrid from '$lib/index/TimelineBanner/TimelineGrid.svelte';
 	import Container from '$lib/Container.svelte';
 
 	import RedWhiteEscutcheon from '$lib/svgs/escutcheon/red-white.svg';
 	import ChevronRight from '$lib/svgs/icons/patient/chevron-right.svg';
-	import TimelineTail from '$lib/svgs/timeline-tail.svg';
+	// import TimelineTail from '$lib/svgs/timeline-tail.svg';
 	import Button from '$lib/Button/Button.svelte';
+	import TimelineItem from './TimelineItem.svelte';
+	import TimelineTail from './TimelineTail.svelte';
+	import TimelineBar from './TimelineBar.svelte';
+	import { tweened } from 'svelte/motion';
+	import { cubicOut } from 'svelte/easing';
 
 	const content = [
 		{
@@ -24,14 +29,37 @@
 			body: 'Enhance continuity of care. We keep patients engaged after their surgery to track their recovery and alert you before complications arise.'
 		}
 	];
+
+	let percentage = tweened(0, { duration: 100, easing: cubicOut });
+
+	const onScroll = (node: HTMLElement) => {
+		const handle = () => {
+			const screenBottom = window.scrollY + window.innerHeight;
+			const bannerTop = node.offsetTop + 256;
+			const bannerBottom = node.offsetTop + node.offsetHeight + 128;
+
+			let percent = (screenBottom - bannerTop) / (bannerBottom - bannerTop);
+
+			if (percent < 0) percent = 0;
+
+			percentage.set(percent);
+		};
+
+		window.addEventListener('scroll', (event) => handle());
+		handle();
+
+		return {
+			destroy() {
+				window.removeEventListener('scroll', (event) => handle());
+			}
+		};
+	};
 </script>
 
-<div class="flex items-center py-16">
+<div class="flex items-center py-16" use:onScroll>
 	<Container>
 		<div class="relative">
-			<div class="absolute top-0 left-0 w-12 h-full flex justify-center z-0">
-				<div class="timeline-bar" />
-			</div>
+			<TimelineBar percentage={$percentage} />
 			<TimelineGrid>
 				<RedWhiteEscutcheon height={'3rem'} width={'3rem'} />
 				<div class="mb-16">
@@ -44,20 +72,7 @@
 			</TimelineGrid>
 			{#each content as obj, i}
 				<TimelineGrid>
-					<div
-						class="flex justify-center items-center w-12 h-12 border-2 border-alice rounded text-lg font-semibold bg-white my-16"
-					>
-						{i + 1}
-					</div>
-					<div class="flex gap-8 ml-8 my-16">
-						<div class="flex-none bg-cloud h-72 w-72">
-							{obj.graphic}
-						</div>
-						<div class="flex flex-col">
-							<h4 class="text-2xl font-semibold mb-4">{obj.title}</h4>
-							<p class="text-grey600 text-lg">{obj.body}</p>
-						</div>
-					</div>
+					<TimelineItem {i} {obj} />
 				</TimelineGrid>
 			{/each}
 
@@ -74,16 +89,14 @@
 							a connected end-to-end experience for the patient and care team.
 						</p>
 
-						<a href="">
-							<Button color="cardinal" classes="flex w-fit items-center">
-								Get started today <ChevronRight height="1em" />
-							</Button>
-						</a>
+						<Button color="cardinal" classes="flex w-fit items-center">
+							Get started today <ChevronRight height="1em" />
+						</Button>
 					</div>
 					<div class="flex-none bg-cloud h-72 w-72">graphic</div>
 				</div>
 			</TimelineGrid>
 		</div>
-		<div class="pl-5"><TimelineTail /></div>
+		<TimelineTail percentage={$percentage} />
 	</Container>
 </div>

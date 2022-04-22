@@ -1,5 +1,4 @@
 <script lang="ts">
-	// import { flip } from 'svelte/animate';
 	import { tweened } from 'svelte/motion';
 	import { cubicOut } from 'svelte/easing';
 

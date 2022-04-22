@@ -20,9 +20,16 @@
 					</p>
 				</div>
 			</div>
-			<div class="flex gap-12">
-				<a sveltekit:prefetch href="/about">About</a>
-				<a sveltekit:prefetch href="/contact">Contact</a>
+			<div class="flex flex-col justify-between h-auto">
+				<div class="flex gap-12 justify-end">
+					<a sveltekit:prefetch href="/about" class="text-lg">About</a>
+					<a sveltekit:prefetch href="/contact" class="text-lg">Contact</a>
+				</div>
+				<div class="flex gap-12">
+					<img class="object-contain h-16" src="/imgs/hipaa.png" alt="HIPAA" />
+					<img class="object-contain h-16" src="/imgs/hitrust.png" alt="HITRUST" />
+					<img class="object-contain h-16" src="/imgs/soc2.png" alt="SOC 2" />
+				</div>
 			</div>
 		</div>
 
