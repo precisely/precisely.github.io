@@ -1,6 +1,6 @@
 interface ScrollTriggerTypes {
-	onEnter: () => void;
-	onExit: () => void;
+	onEnter?: () => void;
+	onExit?: () => void;
 }
 
 const scrollTrigger = (node: HTMLElement, options: ScrollTriggerTypes) => {

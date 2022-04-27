@@ -1,18 +1,19 @@
 <script lang="ts">
-	import Container from '$lib/Container.svelte';
-	import Button from '$lib/Button/Button.svelte';
+	import Container from '$lib/components/Container.svelte';
+	import Button from '$lib/components/Button/Button.svelte';
 	import RedEscutcheon from '$lib/svgs/escutcheon/red.svg';
 	import PolygonBackground from '$lib/PolygonBackground/PolygonBackground.svelte';
 	import scrollTo from '$lib/actions/scrollTo';
+	import GradientText from '$lib/components/GradientText/GradientText.svelte';
 </script>
 
-<div class="relative flex items-center py-16">
+<section class="relative flex items-center py-16">
 	<PolygonBackground />
 	<Container classes="relative">
 		<div class="flex items-center justify-between">
 			<div>
 				<h1 class="font-semibold text-6xl mb-4">
-					<span class="text-gradient">Precision health</span> <br /> at scale.
+					<GradientText>Precision health</GradientText> <br /> at scale.
 				</h1>
 				<div class="h-2 w-8 bg-cardinal mb-8" />
 				<p class="text-grey600 text-xl mb-8">Deliver personalized, value-based care at scale.</p>
@@ -32,4 +33,4 @@
 			</div>
 		</div>
 	</Container>
-</div>
+</section>

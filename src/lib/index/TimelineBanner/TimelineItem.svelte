@@ -17,7 +17,7 @@
 	};
 
 	const onExit = () => {
-		alpha.set(0);
+		// alpha.set(0);
 	};
 
 	export let i: number;

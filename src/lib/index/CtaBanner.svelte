@@ -1,6 +1,6 @@
 <script lang="ts">
-	import Button from '$lib/Button/Button.svelte';
-	import Container from '$lib/Container.svelte';
+	import Button from '$lib/components/Button/Button.svelte';
+	import Container from '$lib/components/Container.svelte';
 	import Escutcheon from '$lib/svgs/escutcheon/any.svg';
 	import colors from '$lib/utils/colors';
 </script>

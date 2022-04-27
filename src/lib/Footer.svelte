@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Logo from '$lib/svgs/logo/full-red-black.svg';
-	import Container from '$lib/Container.svelte';
+	import Container from '$lib/components/Container.svelte';
 </script>
 
 <footer class="bg-alice">
@@ -26,9 +26,9 @@
 					<a sveltekit:prefetch href="/contact" class="text-lg">Contact</a>
 				</div>
 				<div class="flex gap-12">
-					<img class="object-contain h-16" src="/imgs/hipaa.png" alt="HIPAA" />
-					<img class="object-contain h-16" src="/imgs/hitrust.png" alt="HITRUST" />
-					<img class="object-contain h-16" src="/imgs/soc2.png" alt="SOC 2" />
+					<img class="object-contain h-8" src="/imgs/hipaa.png" alt="HIPAA" />
+					<img class="object-contain h-8" src="/imgs/hitrust.png" alt="HITRUST" />
+					<img class="object-contain h-8" src="/imgs/soc2.png" alt="SOC 2" />
 				</div>
 			</div>
 		</div>

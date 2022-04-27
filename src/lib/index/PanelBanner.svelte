@@ -1,7 +1,7 @@
 <script lang="ts">
-	import Button from '$lib/Button/Button.svelte';
+	import Button from '$lib/components/Button/Button.svelte';
 
-	import Container from '$lib/Container.svelte';
+	import Container from '$lib/components/Container.svelte';
 	import PlusColors from '$lib/svgs/plus-colors.svg';
 
 	const panels = [
@@ -28,7 +28,7 @@
 	];
 </script>
 
-<div class="flex items-center py-16">
+<section class="flex items-center py-16">
 	<Container>
 		<div class="flex flex-col items-center justify-center mb-16">
 			<h1 class="text-4xl font-semibold text-center mb-4">We help you scale value-based care.</h1>
@@ -49,4 +49,4 @@
 		</div>
 		<Button color="cardinal" classes="mx-auto">Contact Us</Button>
 	</Container>
-</div>
+</section>

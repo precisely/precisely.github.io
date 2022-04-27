@@ -1,11 +1,11 @@
 <script lang="ts">
 	import TimelineGrid from '$lib/index/TimelineBanner/TimelineGrid.svelte';
-	import Container from '$lib/Container.svelte';
+	import Container from '$lib/components/Container.svelte';
 
 	import RedWhiteEscutcheon from '$lib/svgs/escutcheon/red-white.svg';
 	import ChevronRight from '$lib/svgs/icons/patient/chevron-right.svg';
-	// import TimelineTail from '$lib/svgs/timeline-tail.svg';
-	import Button from '$lib/Button/Button.svelte';
+
+	import Button from '$lib/components/Button/Button.svelte';
 	import TimelineItem from './TimelineItem.svelte';
 	import TimelineTail from './TimelineTail.svelte';
 	import TimelineBar from './TimelineBar.svelte';
@@ -56,7 +56,7 @@
 	};
 </script>
 
-<div class="flex items-center py-16" use:onScroll>
+<section class="flex items-center py-16" use:onScroll>
 	<Container>
 		<div class="relative">
 			<TimelineBar percentage={$percentage} />
@@ -99,4 +99,4 @@
 		</div>
 		<TimelineTail percentage={$percentage} />
 	</Container>
-</div>
+</section>

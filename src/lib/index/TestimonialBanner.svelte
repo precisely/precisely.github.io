@@ -2,7 +2,7 @@
 	import { tweened } from 'svelte/motion';
 	import { cubicOut } from 'svelte/easing';
 
-	import Container from '$lib/Container.svelte';
+	import Container from '$lib/components/Container.svelte';
 	import ChevronRight from '$lib/svgs/icons/patient/chevron-right.svg';
 	import ChevronLeft from '$lib/svgs/icons/patient/chevron-left.svg';
 	import Escutcheon from '$lib/svgs/escutcheon/any.svg';
@@ -50,7 +50,7 @@
 	}
 </script>
 
-<div class="flex items-center py-16">
+<section class="flex items-center py-16">
 	<Container>
 		<div class="relative w-full overflow-x-hidden h-72 flex flex-row rounded-xl">
 			{#each testimonials as obj}
@@ -105,4 +105,4 @@
 			</div>
 		</div>
 	</Container>
-</div>
+</section>

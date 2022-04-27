@@ -1,0 +1,11 @@
+.input-wrapper {
+	@apply flex flex-col mb-8;
+}
+
+.label {
+	@apply font-semibold mb-2;
+}
+
+.input {
+	@apply px-4 py-4 bg-grey50 rounded-lg;
+}

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Container from '$lib/Container.svelte';
+	import Container from '$lib/components/Container.svelte';
 	import Escutcheon from '$lib/svgs/escutcheon/any.svg';
 	import colors from '$lib/utils/colors';
 
@@ -14,7 +14,7 @@
 	];
 </script>
 
-<div id="statistics" class="flex items-center py-32 statistics-gradient">
+<section id="statistics" class="flex items-center py-32 statistics-gradient">
 	<Container>
 		<div class="flex flex-col items-center justify-between">
 			<h1 class="font-semibold text-5xl mb-4">Improve outcomes. Reduce costs.</h1>
@@ -36,4 +36,4 @@
 			</div>
 		</div>
 	</Container>
-</div>
+</section>

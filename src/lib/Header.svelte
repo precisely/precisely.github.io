@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 	import Logo from '$lib/svgs/logo/full-red-black.svg';
-	import Container from '$lib/Container.svelte';
+	import Container from '$lib/components/Container.svelte';
 
 	let offset = 0;
 </script>
