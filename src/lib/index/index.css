@@ -2,18 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-.text-gradient {
-	@apply text-transparent bg-clip-text bg-gradient-to-r from-azure to-cardinal;
-}
-
-.statistics-gradient {
-	@apply bg-gradient-to-b from-alice to-white;
-}
-
 .timeline-grid {
 	display: grid;
 	grid-template-columns: 3rem auto;
 	column-gap: 4rem;
+	overflow-x: hidden;
 }
 
 .timeline-bar {

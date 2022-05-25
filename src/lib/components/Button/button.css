@@ -1,12 +1,6 @@
 .btn {
-	@apply flex justify-center
-      font-bold
-      border rounded-md cursor-pointer
-      px-4 py-3;
-}
-
-.btn-slim {
-	@apply py-2 px-3 border-0;
+	@apply flex justify-center rounded-sm px-6 py-3
+	cursor-pointer;
 }
 
 .btn:hover {
@@ -17,46 +11,6 @@
 	filter: brightness(65%);
 }
 
-.btn-ink {
-	@apply bg-ink text-cloud border-cloud;
-}
-
-.btn-cloud {
-	@apply bg-cloud text-ink border-ink;
-}
-
-.btn-coconut {
-	@apply bg-coconut text-ink border-ink;
-}
-
-.btn-brick {
-	@apply bg-brick text-white border-white;
-}
-
 .btn-cardinal {
-	@apply bg-cardinal text-white border-white;
-}
-
-.btn-cardinal-inv {
-	@apply text-cardinal border-cardinal;
-}
-
-.btn-cobalt {
-	@apply bg-cobalt text-cloud;
-}
-
-.btn-grey500 {
-	@apply bg-grey500 text-cloud;
-}
-
-.btn-grey600 {
-	@apply bg-grey600 text-cloud;
-}
-
-.btn-grey600-inv {
-	@apply text-grey600 border-grey600;
-}
-
-.btn-grey200 {
-	@apply bg-grey200;
+	@apply bg-cardinal text-coconut;
 }

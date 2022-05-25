@@ -1,12 +1,12 @@
 <script context="module" lang="ts">
 	import '$lib/index/index.css';
 
-	import LandingBanner from '$lib/index/LandingBanner.svelte';
-	import StatisticsBanner from '$lib/index/StatisticsBanner.svelte';
+	import LandingBanner from '$lib/index/LandingBanner/LandingBanner.svelte';
 	import TimelineBanner from '$lib/index/TimelineBanner/TimelineBanner.svelte';
-	import TestimonialBanner from '$lib/index/TestimonialBanner.svelte';
-	import PanelBanner from '$lib/index/PanelBanner.svelte';
-	import CtaBanner from '$lib/index/CtaBanner.svelte';
+	import TestimonialBanner from '$lib/index/TestimonialBanner/TestimonialBanner.svelte';
+	import PanelBanner from '$lib/index/PanelBanner/PanelBanner.svelte';
+	import CtaBanner from '$lib/index/CtaBanner/CtaBanner.svelte';
+	import EmpowerBanner from '$lib/index/EmpowerBanner/EmpowerBanner.svelte';
 </script>
 
 <svelte:head>
@@ -14,8 +14,8 @@
 </svelte:head>
 
 <LandingBanner />
-<StatisticsBanner />
-<TimelineBanner />
 <PanelBanner />
+<TimelineBanner />
+<EmpowerBanner />
 <TestimonialBanner />
 <CtaBanner />

@@ -11,6 +11,7 @@
 	import TimelineBar from './TimelineBar.svelte';
 	import { tweened } from 'svelte/motion';
 	import { cubicOut } from 'svelte/easing';
+	import BlockDivider from '$lib/components/BlockDivider.svelte';
 
 	const content = [
 		{
@@ -60,38 +61,49 @@
 	<Container>
 		<div class="relative">
 			<TimelineBar percentage={$percentage} />
-			<TimelineGrid>
+			<TimelineGrid classes="mb-32">
 				<RedWhiteEscutcheon height={'3rem'} width={'3rem'} />
-				<div class="mb-16">
-					<h2 class="font-semibold text-3xl mb-8">Redefine Perioperative Standard of Care.</h2>
-					<p class="text-grey600 text-xl">
-						Precisely is an end-to-end platform that delivers a premium patient experience by
-						orchestrating care across the entire surgical journey.
+				<div>
+					<h1 class="content-4xl text-ink mb-16">
+						Orchestrate care across the entire surgical journey
+					</h1>
+					<p class="content-xl text-grey700">
+						PIA™ (Precisely Intelligent Assistant) is a virtual patient navigator that coordinates
+						high-quality, patient-centered care from end-to-end. PIA mitigates surgical risk and
+						optimizes outcomes by eliminating oversights and creating dynamic care plans that are
+						personalized to the unique needs and goals of every patient.
 					</p>
 				</div>
 			</TimelineGrid>
-			{#each content as obj, i}
-				<TimelineGrid>
-					<TimelineItem {i} {obj} />
-				</TimelineGrid>
-			{/each}
+			<TimelineItem i={1} category="Preoperative Evaluation" title="Eliminate gaps in care.">
+				We ensure every patient receives a consistent and appropriate preoperative evaluation that
+				follows the latest evidence-based guidelines.
+			</TimelineItem>
+			<TimelineItem i={2} category="Surgical Optimization" title="Prepare for surgery.">
+				Patients are coached through personalized prehabilitation plans that optimize their
+				presurgical health across five essential, patient-centered domains.
+			</TimelineItem>
+			<TimelineItem
+				i={3}
+				category="Post-Discharge Monitoring"
+				title="Prioritize continuity of care."
+			>
+				Patient engagement extends beyond discharge to track recovery progress and treatment
+				adherence, preventing complications before they arise.
+			</TimelineItem>
 
 			<TimelineGrid>
 				<div />
-				<div class="flex gap-8 mt-16">
-					<div>
-						<h2 class="font-semibold text-3xl mb-4 max-w-sm">
-							Modernize your approach to perioperative care.
-						</h2>
-						<div class="h-2 w-8 bg-azure mb-8" />
-						<p class="text-grey600 text-xl mb-12">
-							It's time to end fragmentation in healthcare delivery. Precisely can help you deliver
-							a connected end-to-end experience for the patient and care team.
+				<div class="flex justify-between gap-8">
+					<div class="max-w-lg">
+						<h2 class="content-4xl mb-4">Optimize your approach to perioperative medicine</h2>
+						<BlockDivider classes="bg-azure mb-8" />
+						<p class="content-xl text-grey700 mb-16">
+							Precisely delivers a comprehensive and connected experience for the patient and care
+							team.
 						</p>
 
-						<Button color="cardinal" classes="flex w-fit items-center">
-							Get started today <ChevronRight height="1em" />
-						</Button>
+						<Button color="cardinal">How It Works</Button>
 					</div>
 					<div class="flex-none bg-cloud h-72 w-72">graphic</div>
 				</div>

@@ -1,0 +1,5 @@
+.cta-background {
+	background-image: url('/imgs/cta-background.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}

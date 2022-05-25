@@ -8,6 +8,6 @@
 	export let onClick: () => void = () => {};
 </script>
 
-<button class={`btn btn-${color} btn-${size} ${classes}`} {disabled} {onClick}>
+<button class={`btn btn-${color} btn-${size} content-lg-bold ${classes}`} {disabled} {onClick}>
 	<slot />
 </button>

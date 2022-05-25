@@ -3,7 +3,8 @@
 </script>
 
 <div class={`flex justify-center w-full ${classes}`}>
-	<div class="max-w-7xl container px-12">
+	<!-- 1280px with 20px padding = 1240px -->
+	<div class="max-w-screen-xl container px-5">
 		<slot />
 	</div>
 </div>

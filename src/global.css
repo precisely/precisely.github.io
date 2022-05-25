@@ -2,6 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Text Helpers */
+.content {
+	@apply font-normal;
+}
+.content-lg {
+	@apply text-lg;
+}
+.content-lg-b {
+	@apply text-lg font-bold;
+}
+.content-xl {
+	@apply text-xl font-normal;
+}
+.content-xl-sb {
+	@apply text-xl font-semibold;
+}
+.content-3xl {
+	@apply text-2xl font-normal;
+}
+.content-3xl-sb {
+	@apply text-3xl font-semibold;
+}
+.content-4xl {
+	@apply text-4xl font-bold;
+}
+.content-5xl {
+	@apply text-5xl font-bold;
+}
+.content-6xl {
+	@apply text-6xl font-bold;
+}
+.content-subcategory {
+	@apply text-base font-medium uppercase tracking-wide;
+}
+.content-label {
+	@apply text-base font-semibold;
+}
+
 @font-face {
 	font-family: 'Ageo';
 	font-weight: 100;
