@@ -1,24 +1,23 @@
 <script lang="ts">
-	import Team from '$lib/about/Team.svelte';
+	import CtaBanner from '$lib/about/CtaBanner/CtaBanner.svelte';
+	import MissionBanner from '$lib/about/MissionBanner/MissionBanner.svelte';
+	import TeamBanner from '$lib/about/TeamBanner/TeamBanner.svelte';
 	import Container from '$lib/components/Container.svelte';
-	import GradientText from '$lib/components/GradientText/GradientText.svelte';
+	import Section from '$lib/components/Section.svelte';
 </script>
 
 <svelte:head>
 	<title>About</title>
 </svelte:head>
 
-<section class="flex items-center pt-32 pb-16">
-	<div class="max-w-5xl mx-auto">
-		<h1 class="font-semibold text-5xl mb-8 text-center">
-			<GradientText>The definitive solution for value based care.</GradientText>
+<Section>
+	<Container>
+		<h1 class="content-5xl text-center text-ink">
+			At Precisely, we're re-writing the future for care delivery, patient experience, and health
+			outcomes.
 		</h1>
-		<p class="text-2xl text-grey600 text-center">
-			We are passionate about implementing technology that delivers improved patient outcomes while
-			lessening the burden on care teams. Healthcare providers working top of license with
-			prevention as a long-term goal. That's our mission.
-		</p>
-	</div>
-</section>
-
-<Team />
+	</Container>
+</Section>
+<MissionBanner />
+<TeamBanner />
+<CtaBanner />

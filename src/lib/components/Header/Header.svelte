@@ -11,7 +11,7 @@
 
 <header
 	class={`fixed flex items-center h-[88px] w-full top-0 transition z-10 ${
-		offset > 0 ? 'bg-white' : ''
+		offset > 0 ? 'bg-white' : 'bg-white'
 	}`}
 >
 	<Container>

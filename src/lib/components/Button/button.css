@@ -1,5 +1,5 @@
 .btn {
-	@apply flex justify-center rounded-sm px-6 py-3
+	@apply flex justify-center rounded-sm px-6 pt-3 pb-2
 	cursor-pointer;
 }
 

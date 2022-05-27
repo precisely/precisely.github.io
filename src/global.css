@@ -18,6 +18,12 @@
 .content-xl-sb {
 	@apply text-xl font-semibold;
 }
+.content-2xl {
+	@apply text-2xl font-normal;
+}
+.content-2xl-sb {
+	@apply text-2xl font-semibold;
+}
 .content-3xl {
 	@apply text-2xl font-normal;
 }

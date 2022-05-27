@@ -1,0 +1,9 @@
+.mission-triangle {
+	width: 0px;
+	height: 0px;
+	margin: 0 auto;
+	transform: translateX(-50%);
+	border-left: 1024px solid transparent;
+	border-right: 1024px solid transparent;
+	border-top: 64px solid white;
+}
