@@ -11,7 +11,12 @@
 
 <div class="input-wrapper">
 	{#if label !== null}
-		<label class="label" for={name}>{label}</label>
+		<label class="content-label text-ink mb-2" for={name}>{label}</label>
 	{/if}
-	<input class="input" {placeholder} {name} {type} {required} {value} />
+	<!-- can't dynamically set type due to value binding -->
+	{#if type === 'text'}
+		<input class="input" {placeholder} {name} type="text" {required} bind:value />
+	{:else if type === 'email'}
+		<input class="input" {placeholder} {name} type="email" {required} bind:value />
+	{/if}
 </div>

@@ -2,32 +2,55 @@
 	import Button from '$lib/components/Button/Button.svelte';
 	import Input from '$lib/components/Input/Input.svelte';
 	import Container from '$lib/components/Container.svelte';
+	import Section from '$lib/components/Section.svelte';
+
+	let name: string = '';
+	let email: string = '';
+	let comments: string = '';
 
 	const submit = (e: Event) => {
 		e.preventDefault();
-		console.log('submit!');
+		console.log('submit!', name, email, comments);
 	};
-
-	let name = '';
-	let email = '';
 </script>
 
 <svelte:head>
 	<title>Contact</title>
 </svelte:head>
 
-<section class="flex items-center py-16">
+<Section>
 	<Container>
-		<div class="flex flex-col max-w-sm">
-			<h1 class="font-semibold text-5xl mb-4">Let's Talk</h1>
-			<p class="text-grey600 text-xl mb-16">
-				Have a question? Our team would love to hear from you and help in any way we can.
-			</p>
-			<form class="flex flex-col mb-16" on:submit={submit}>
-				<Input label="Name" name="name" value={name} placeholder="Name" required />
-				<Input label="Email" name="email" value={email} placeholder="Email" type="email" required />
-				<Button color="cardinal">Get in touch</Button>
-			</form>
+		<div class="flex">
+			<div class="max-w-md">
+				<h1 class="content-6xl text-ink mb-8">Let's connect!</h1>
+				<p class="content-xl text-grey700 mb-8">
+					At Precisely, we believe that every patient deserves personalized, coordinated, and
+					data-driven care. We're building the digital platform to power this reality.
+				</p>
+				<p class="content-xl text-grey700 mb-16">
+					We'd love to chat and learn how we can work together to build a better healthcare system.
+				</p>
+				<form class="flex flex-col mb-16" on:submit={submit}>
+					<Input label="Name" name="name" bind:value={name} placeholder="Name" required />
+					<Input
+						label="Email"
+						name="email"
+						bind:value={email}
+						placeholder="Email"
+						type="email"
+						required
+					/>
+					<Input
+						label="Comments"
+						name="comments"
+						bind:value={comments}
+						placeholder="Comments"
+						type="text"
+						required
+					/>
+					<Button color="cardinal">Get in touch</Button>
+				</form>
+			</div>
 		</div>
 	</Container>
-</section>
+</Section>
