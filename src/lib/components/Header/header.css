@@ -1,0 +1,4 @@
+.menu-bg {
+	box-shadow: 0px 8px 16px #ededed;
+	@apply bg-white;
+}

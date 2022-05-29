@@ -1,6 +1,4 @@
 <script context="module" lang="ts">
-	import '$lib/index/index.css';
-
 	import LandingBanner from '$lib/index/LandingBanner/LandingBanner.svelte';
 	import TimelineBanner from '$lib/index/TimelineBanner/TimelineBanner.svelte';
 	import TestimonialBanner from '$lib/index/TestimonialBanner/TestimonialBanner.svelte';

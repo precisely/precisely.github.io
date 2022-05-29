@@ -16,22 +16,22 @@
 			<h1 class="content-4xl text-center mb-8">Simplify the process of delivering complex care</h1>
 			<PlusColors height="2rem" />
 		</div>
-		<div class="flex justify-between gap-8 mb-16">
+		<div class="flex flex-col items-center md:flex-row justify-between gap-8 mb-16">
 			<Panel title="Improved efficiency">
 				<span slot="graphic">
-					<TimerSvg />
+					<TimerSvg height="100%" />
 				</span>
 				We handle routine and time-consuming administrative tasks
 			</Panel>
 			<Panel title="Superior engagement">
 				<span slot="graphic">
-					<EngagementSvg />
+					<EngagementSvg height="100%" />
 				</span>
 				We empower your patients with customized tools and resources
 			</Panel>
 			<Panel title="Data security">
 				<span slot="graphic">
-					<LockSvg />
+					<LockSvg height="100%" />
 				</span>
 				End-to-end encryption and industry leading data privacy practices
 			</Panel>

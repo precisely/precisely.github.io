@@ -2,6 +2,6 @@
 	export let classes: string = '';
 </script>
 
-<section class={`relative flex items-center py-32 ${classes}`}>
+<section class={`relative flex items-center py-24 md:py-32 ${classes}`}>
 	<slot />
 </section>

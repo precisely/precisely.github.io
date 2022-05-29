@@ -6,10 +6,10 @@
 
 <footer class="bg-grey800 pt-16 pb-8 text-coconut">
 	<Container>
-		<div class="flex justify-between mb-8">
+		<div class="flex flex-col md:flex-row justify-between mb-8 gap-8">
 			<div class="flex flex-col">
 				<div class="inline-block h-8 mb-6">
-					<Logo />
+					<Logo height="100%" />
 				</div>
 				<a href="mailto:info@precisely.com" class="content-lg mb-8"> info@precisely.com </a>
 				<p class="content-lg">
@@ -18,12 +18,12 @@
 					San Francisco, CA
 				</p>
 			</div>
-			<div class="flex flex-col justify-between h-auto">
-				<ul class="flex gap-8 justify-end">
+			<div class="flex flex-col justify-between h-auto gap-4">
+				<ul class="flex flex-col md:flex-row gap-4 md:gap-8 md:justify-end mb-8">
 					<FooterLink pathname="/about">About</FooterLink>
 					<FooterLink pathname="/contact">Contact</FooterLink>
 				</ul>
-				<div class="flex items-center gap-8">
+				<div class="flex flex-wrap items-center gap-8">
 					<img class="object-contain h-12" src="/imgs/hipaa.png" alt="HIPAA" />
 					<img class="object-contain h-12" src="/imgs/hitrust.png" alt="HITRUST" />
 					<img class="object-contain h-12" src="/imgs/soc2.png" alt="SOC 2" />

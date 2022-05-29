@@ -16,7 +16,7 @@
 	}
 </script>
 
-<div class="pl-5">
+<div class="hidden md:block md:pl-5">
 	<svg
 		width="507"
 		height="106"

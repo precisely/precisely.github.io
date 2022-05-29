@@ -13,23 +13,7 @@
 	import { cubicOut } from 'svelte/easing';
 	import BlockDivider from '$lib/components/BlockDivider.svelte';
 
-	const content = [
-		{
-			graphic: 'graphic',
-			title: 'Preoperative Evaluation',
-			body: 'Eliminate gaps in care. We ensure every patient receives a consistent and appropriate preoperative evaluation that follows the latest evidence-based guidelines.'
-		},
-		{
-			graphic: 'graphic',
-			title: 'Surgical Optimization',
-			body: "Prepare patients for surgery. We create personalized care plans that optimize each patient's health across five essential, patient-centered domains."
-		},
-		{
-			graphic: 'graphic',
-			title: 'Post-discharge Monitoring',
-			body: 'Enhance continuity of care. We keep patients engaged after their surgery to track their recovery and alert you before complications arise.'
-		}
-	];
+	import './timelineBanner.css';
 
 	let percentage = tweened(0, { duration: 100, easing: cubicOut });
 
@@ -57,12 +41,15 @@
 	};
 </script>
 
-<section class="flex items-center py-16" use:onScroll>
+<section class="relative flex items-center py-24 md:py-32" use:onScroll>
 	<Container>
 		<div class="relative">
 			<TimelineBar percentage={$percentage} />
-			<TimelineGrid classes="mb-32">
-				<RedWhiteEscutcheon height={'3rem'} width={'3rem'} />
+
+			<TimelineGrid classes="mb-16 md:mb-32">
+				<span slot="lead">
+					<RedWhiteEscutcheon height={'3rem'} width={'3rem'} />
+				</span>
 				<div>
 					<h1 class="content-4xl text-ink mb-16">
 						Orchestrate care across the entire surgical journey
@@ -93,9 +80,8 @@
 			</TimelineItem>
 
 			<TimelineGrid>
-				<div />
-				<div class="flex justify-between gap-8">
-					<div class="max-w-lg">
+				<div class="flex flex-col-reverse md:flex-row justify-between gap-8">
+					<div class="md:max-w-lg">
 						<h2 class="content-4xl mb-4">Optimize your approach to perioperative medicine</h2>
 						<BlockDivider classes="bg-azure mb-8" />
 						<p class="content-xl text-grey700 mb-16">

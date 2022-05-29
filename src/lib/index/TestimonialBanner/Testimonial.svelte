@@ -9,7 +9,7 @@
 </script>
 
 <div
-	class="relative flex-none w-[inherit] h-full flex px-16 gap-16"
+	class="relative flex-none w-[inherit] h-full flex flex-col md:flex-row px-16 gap-8 md:gap-16"
 	style={`transform:translateX(-${offset}%)`}
 >
 	<div class="rounded-xl overflow-hidden w-48 h-48 image-shadow">

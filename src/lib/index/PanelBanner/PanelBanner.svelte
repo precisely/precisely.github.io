@@ -20,7 +20,7 @@
 			</h1>
 			<PlusColors height="2rem" />
 		</div>
-		<div class="grid grid-cols-2 gap-16 mb-16">
+		<div class="flex flex-col items-center md:grid md:grid-cols-2 gap-16 mb-16">
 			<Panel title="Best-in-class patient outcomes">
 				<span slot="graphic">
 					<HandsHeartSvg />

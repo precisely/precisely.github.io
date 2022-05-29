@@ -6,8 +6,8 @@
 </script>
 
 <ModalWrapper>
-	<div class="flex flex-col min-h-screen">
-		<main class="flex-1 pt-[88px]">
+	<div class="flex flex-col min-h-screen max-w-full overflow-x-hidden ">
+		<main class="flex-1 pt-[68px] md:pt-[88px]">
 			<Header />
 			<slot />
 		</main>
