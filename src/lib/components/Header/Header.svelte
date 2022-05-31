@@ -37,8 +37,8 @@
 				} overflow-y-hidden transition-all menu-bg`}
 			>
 				<Container>
-					<HeaderLink pathname="/about">About</HeaderLink>
-					<HeaderLink pathname="/contact">Contact</HeaderLink>
+					<HeaderLink pathname="/about" onClick={toggleMenu}>About</HeaderLink>
+					<HeaderLink pathname="/contact" onClick={toggleMenu}>Contact</HeaderLink>
 				</Container>
 			</ul>
 

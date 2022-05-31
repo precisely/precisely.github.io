@@ -2,3 +2,7 @@
 	box-shadow: 0px 8px 16px #ededed;
 	@apply bg-white;
 }
+
+.header-link {
+	@apply block pt-4 pb-[14px] md:p-0 font-semibold text-xl text-ink w-full;
+}

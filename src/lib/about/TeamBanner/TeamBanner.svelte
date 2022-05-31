@@ -11,7 +11,7 @@
 			We're a team of doctors, scientists, and innovators who believe in building a brighter
 			healthcare future.
 		</p>
-		<div class="flex justify-center gap-16">
+		<div class="flex flex-wrap justify-center gap-16">
 			<Member src="imgs/linda.webp" name="Linda Avey" title="Cofounder & CEO">
 				<p>
 					Co-founder and former Co-President, 23andMe <br />

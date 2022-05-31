@@ -19,7 +19,7 @@
 		<p class="content-xl text-grey700 text-center mb-16">
 			We're a tech company that puts people at the center of everything we do.
 		</p>
-		<div class="flex gap-8 mb-16 justify-center">
+		<div class="grid md:grid-cols-2 xl:grid-cols-4 gap-8 mb-16 justify-center">
 			<Panel title="Better outcomes">
 				<span slot="graphic">
 					<GlobeSvg />

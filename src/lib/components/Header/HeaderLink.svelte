@@ -1,11 +1,16 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 
+	export let onClick: () => void = () => {};
 	export let pathname: string;
 </script>
 
-<li class:active={$page.url.pathname === pathname} class="pt-4 pb-[14px] md:p-0">
-	<a sveltekit:prefetch href={pathname} class="font-semibold text-xl text-ink">
-		<slot />
-	</a>
-</li>
+<a
+	sveltekit:prefetch
+	href={pathname}
+	class:active={$page.url.pathname === pathname}
+	class="header-link"
+	on:click={onClick}
+>
+	<slot />
+</a>

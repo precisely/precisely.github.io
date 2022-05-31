@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Container from '$lib/components/Container.svelte';
-
+	import { hideComponent } from '$lib/components/ModalWrapper/ModalWrapper.svelte';
 	import MemberData from './MemberData.svelte';
 	import './memberModal.css';
 
@@ -11,7 +11,7 @@
 </script>
 
 <Container>
-	<div class="bg-white flex p-8 gap-8 rounded-lg">
+	<div class="bg-white flex flex-col md:flex-row p-8 gap-8 rounded-lg" on:click={hideComponent}>
 		<div class="flex flex-col items-center">
 			<MemberData {src} {name} {title} />
 		</div>
