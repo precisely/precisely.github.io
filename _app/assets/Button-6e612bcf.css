@@ -1,0 +1,1 @@
+.btn{display:flex;cursor:pointer;justify-content:center;border-radius:.125rem;padding:.75rem 1.5rem .5rem}.btn:hover{filter:brightness(85%)}.btn:active{filter:brightness(65%)}.btn-cardinal{--tw-bg-opacity: 1;background-color:rgb(231 31 84 / var(--tw-bg-opacity));--tw-text-opacity: 1;color:rgb(254 254 254 / var(--tw-text-opacity))}
