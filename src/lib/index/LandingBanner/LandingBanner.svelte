@@ -25,9 +25,11 @@
 				</h1>
 				<BlockDivider classes="bg-cardinal mb-8" />
 				<p class="font-base content-xl text-grey700 mb-16">
-					Personalize surgical care journeys and deploy evidence-based best practices at scale
+					Personalize surgical care journeys and deploy evidence-based best practices at scale.
 				</p>
-				<Button color="cardinal">Request Demo</Button>
+				<a sveltekit:prefetch href={'/contact'}>
+					<Button color="cardinal">Request Demo</Button>
+				</a>
 			</div>
 			<div class="-m-32 h-[512px]">
 				<Placeholder height="100%" />
@@ -36,7 +38,7 @@
 	</Container>
 	<div
 		class="absolute bottom-8 left-1/2 -translate-x-1/2 hidden md:flex flex-col items-center mx-auto hover:cursor-pointer p-2"
-		use:scrollTo={'statistics'}
+		use:scrollTo={'panel-banner'}
 	>
 		<span class="text-cardinal content-xl mb-0.5">Our Platform</span>
 		<ChevronDown height="32px" color={colors['cardinal']} />

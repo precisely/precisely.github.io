@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-	<title>Contact</title>
+	<title>Contact Us | Precisely</title>
 </svelte:head>
 
 <Section>

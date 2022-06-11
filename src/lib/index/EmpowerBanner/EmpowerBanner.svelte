@@ -36,6 +36,8 @@
 				End-to-end encryption and industry leading data privacy practices
 			</Panel>
 		</div>
-		<Button color="cardinal" classes="mx-auto">Contact Us</Button>
+		<a sveltekit:prefetch href={'/contact'}>
+			<Button color="cardinal" classes="mx-auto">Contact Us</Button>
+		</a>
 	</Container>
 </Section>

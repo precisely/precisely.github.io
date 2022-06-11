@@ -1,5 +1,5 @@
 <script lang="ts">
-	import CtaBanner from '$lib/about/CtaBanner/CtaBanner.svelte';
+	import JoinBanner from '$lib/about/JoinBanner/JoinBanner.svelte';
 	import MissionBanner from '$lib/about/MissionBanner/MissionBanner.svelte';
 	import TeamBanner from '$lib/about/TeamBanner/TeamBanner.svelte';
 	import Container from '$lib/components/Container.svelte';
@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-	<title>About</title>
+	<title>About Us | Precisely</title>
 </svelte:head>
 
 <Section>
@@ -20,4 +20,4 @@
 </Section>
 <MissionBanner />
 <TeamBanner />
-<CtaBanner />
+<JoinBanner />

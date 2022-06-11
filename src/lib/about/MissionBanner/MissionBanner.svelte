@@ -47,6 +47,8 @@
 				Automating routine tasks and documentation so clinical teams always operate at top-of-license
 			</Panel>
 		</div>
-		<Button color="cardinal mx-auto">Contact Us</Button>
+		<a sveltekit:prefetch href={'/contact'}>
+			<Button color="cardinal mx-auto">Contact Us</Button>
+		</a>
 	</Container>
 </Section>

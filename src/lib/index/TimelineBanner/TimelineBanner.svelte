@@ -88,8 +88,9 @@
 							Precisely delivers a comprehensive and connected experience for the patient and care
 							team.
 						</p>
-
-						<Button color="cardinal">How It Works</Button>
+						<a sveltekit:prefetch href={'/contact'}>
+							<Button color="cardinal">How It Works</Button>
+						</a>
 					</div>
 					<div class="flex-none bg-cloud h-72 w-72">graphic</div>
 				</div>
