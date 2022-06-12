@@ -1,7 +1,8 @@
-// import adapter from '@sveltejs/adapter-auto';
 import adapter from '@sveltejs/adapter-static'; // for static site
 import preprocess from 'svelte-preprocess';
 import svg from '@poppanator/sveltekit-svg';
+
+const dev = process.env.dev;
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {

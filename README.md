@@ -1,8 +1,8 @@
 # Precisely Website
 
-This repository contains the code for Precisely's website at https://www.precise.ly/.
+This repository contains the code for Precisely's website at https://www.precise.ly/. The preview link of the website is https://precisely.github.io/www/.
 
-## Developing
+## Development
 
 Once you've installed dependencies with `yarn`, start a development server:
 
@@ -10,7 +10,7 @@ Once you've installed dependencies with `yarn`, start a development server:
 yarn dev
 ```
 
-## Building
+## Build
 
 To create a production version of the app:
 
@@ -18,7 +18,19 @@ To create a production version of the app:
 yarn build
 ```
 
+The file output will be in the `build` folder.
+
 You can preview the production build with `yarn preview`.
+
+## Deployment
+
+We currently use Github Pages for static site hosting. After creating a build, run the command below to automatically push the contents in the build folder to the `gh-pages` branch.
+
+```bash
+yarn deploy
+```
+
+Configure the domain in `static/CNAME`.
 
 ## Updating SVGs
 
@@ -27,3 +39,7 @@ Some SVGs may not be updated through hot reloading. Clear the svelte-kit cache b
 ```
 rm -rf .svelte-kit
 ```
+
+## FAQ
+
+`static/.nojekyll` tells Github pages to not use the Jekyll site generator.
