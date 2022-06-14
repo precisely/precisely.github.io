@@ -12,7 +12,7 @@
 			healthcare future.
 		</p>
 		<div class="flex flex-wrap justify-center gap-16">
-			<Member src="imgs/linda.webp" name="Linda Avey" title="Cofounder & CEO">
+			<Member src="imgs/team/linda.webp" name="Linda Avey" title="Cofounder & CEO">
 				<p>
 					Co-founder and former Co-President, 23andMe <br />
 					Board of Advisors, Verily
@@ -24,7 +24,7 @@
 					Francisco, Boston, San Diego, and Washington, DC
 				</p>
 			</Member>
-			<Member src="imgs/aneil.webp" name="Aneil Mallavarapu, PhD" title="Cofounder & CTO">
+			<Member src="imgs/team/aneil.webp" name="Aneil Mallavarapu, PhD" title="Cofounder & CTO">
 				<p>Founder, DeepDialog (AI for complex conversational flows)</p>
 				<p>Head of growth, Remind (#1 teacher communication app)</p>
 				<p>Led knowledge management, Millennium Pharmaceuticals</p>
@@ -33,6 +33,12 @@
 				<p>Developed microscale CALI, Harvard University</p>
 				<p>PhD Biochemistry/Cell Biology, UCSF</p>
 			</Member>
+			<Member
+				src="imgs/team/jefferson.webp"
+				name="Jefferson Griscavage"
+				title="Director of Product"
+			/>
+			<Member src="imgs/team/andrew.webp" name="Andrew Wang" title="Software Engineer" />
 		</div>
 	</Container>
 </Section>

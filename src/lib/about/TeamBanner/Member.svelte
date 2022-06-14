@@ -10,13 +10,16 @@
 	let slot: HTMLElement; // used to retrieve the HTML data from the slot
 
 	function toggleModal() {
-		showComponent(MemberModal, { src, name, title, slot: slot?.innerHTML });
+		if (slot?.innerHTML) showComponent(MemberModal, { src, name, title, slot: slot?.innerHTML });
 	}
 </script>
 
 <!-- used to retrieve the HTML data from the slot -->
 <span class="hidden" bind:this={slot}><slot /></span>
 
-<div class="w-64 flex flex-col items-center cursor-pointer" on:click={toggleModal}>
+<div
+	class={`w-64 flex flex-col items-center ${slot?.innerHTML ? 'cursor-pointer' : ''}`}
+	on:click={toggleModal}
+>
 	<MemberData {src} {name} {title} />
 </div>
