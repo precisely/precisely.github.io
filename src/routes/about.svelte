@@ -4,11 +4,10 @@
 	import TeamBanner from '$lib/about/TeamBanner/TeamBanner.svelte';
 	import Container from '$lib/components/Container.svelte';
 	import Section from '$lib/components/Section.svelte';
+	import Seo from '$lib/components/Seo.svelte';
 </script>
 
-<svelte:head>
-	<title>About Us | Precisely</title>
-</svelte:head>
+<Seo title="About Us | Precisely" description="We're a team of doctors, engineers and innovators" />
 
 <Section>
 	<Container>

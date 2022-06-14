@@ -1,6 +1,6 @@
 # Precisely Website
 
-This repository contains the code for Precisely's website at https://www.precise.ly/. The preview link of the website is https://precisely.github.io/www/.
+This repository contains the code for Precisely's website at https://www.precise.ly/. The preview link of the website is https://precisely.github.io/.
 
 ## Development
 

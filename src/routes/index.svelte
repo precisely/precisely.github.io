@@ -5,22 +5,13 @@
 	import PanelBanner from '$lib/index/PanelBanner/PanelBanner.svelte';
 	import CtaBanner from '$lib/index/CtaBanner/CtaBanner.svelte';
 	import EmpowerBanner from '$lib/index/EmpowerBanner/EmpowerBanner.svelte';
+	import Seo from '$lib/components/Seo.svelte';
 </script>
 
-<svelte:head>
-	<title>Precisely</title>
-	<meta name="description" content="Place the meta description text here." />
-
-	<!-- To generate the preview when linking on social media -->
-	<meta property="og:locale" content="en_US" />
-	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://www.precise.ly/" />
-
-	<!-- <meta property="og:title" content="" />
-	<meta property="og:description" content="" />
-	<meta property="og:site_name" content="" />
-	<meta property="og:image" content="" /> -->
-</svelte:head>
+<Seo
+	title="Precisely | Personalized Perioperative Care Platform"
+	description="Orchestrate surgical care journeys and deploy evidence-based best practices at scale."
+/>
 
 <LandingBanner />
 <PanelBanner />

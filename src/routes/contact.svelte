@@ -1,12 +1,11 @@
 <script lang="ts">
 	import Container from '$lib/components/Container.svelte';
 	import Section from '$lib/components/Section.svelte';
+	import Seo from '$lib/components/Seo.svelte';
 	import Typeform from '$lib/contact/Typeform.svelte';
 </script>
 
-<svelte:head>
-	<title>Contact Us | Precisely</title>
-</svelte:head>
+<Seo title="Contact Us | Precisely" description="Have a question? We'd love to connect!" />
 
 <Section>
 	<Container>
