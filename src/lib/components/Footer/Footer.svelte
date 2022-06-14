@@ -23,7 +23,7 @@
 					<FooterLink pathname="/about">About</FooterLink>
 					<FooterLink pathname="/contact">Contact</FooterLink>
 				</ul>
-				<div class="flex flex-wrap items-center gap-8">
+				<div class="flex flex-wrap md:flex-nowrap items-center gap-8">
 					<img class="object-contain h-12" src="/imgs/hipaa.png" alt="HIPAA" />
 					<img class="object-contain h-12" src="/imgs/hitrust.png" alt="HITRUST" />
 					<img class="object-contain h-12" src="/imgs/soc2.png" alt="SOC 2" />

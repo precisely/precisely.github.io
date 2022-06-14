@@ -32,6 +32,10 @@ yarn deploy
 
 Configure the domain in `static/CNAME`.
 
+Make sure to preview on Safari before deployment. Known bugs are
+
+- SVG clip-path doesn't render correctly - SVG's with clip-path attributes are clipped beyond their specifications after a page rerender. Seems to be resolved by removing the clip-path attribute entirely.
+
 ## Updating SVGs
 
 Some SVGs may not be updated through hot reloading. Clear the svelte-kit cache by running the command below.

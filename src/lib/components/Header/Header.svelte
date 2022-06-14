@@ -18,7 +18,7 @@
 <svelte:window bind:scrollY={offset} />
 
 <header
-	class={`fixed flex items-center h-[68px] md:h-[88px] w-full top-0 transition z-10 ${
+	class={`fixed flex items-center h-[68px] md:h-[88px] w-full top-0 transition z-20 ${
 		offset > 0 ? 'bg-white' : 'bg-white'
 	}`}
 >
