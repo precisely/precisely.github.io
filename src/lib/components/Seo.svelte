@@ -15,5 +15,7 @@
 
 	<meta property="og:title" content={title} />
 	<meta property="og:description" content={description} />
-	<meta property="og:image" content="imgs/social-image.png" />
+
+	<!-- needs an absolute link, can't use relative link -->
+	<meta property="og:image" content="https://precisely.github.io/imgs/social-image.png" />
 </svelte:head>

@@ -8,12 +8,18 @@
 	let comments: string = '';
 
 	const submit = (e: Event) => {
-		e.preventDefault();
-		console.log('submit!', name, email, comments);
+		// Using FormSubmit to email form results
+		// e.preventDefault();
+		// console.log('submit!', name, email, comments);
 	};
 </script>
 
-<form class="flex flex-col mb-16" on:submit={submit}>
+<form
+	class="flex flex-col mb-16"
+	on:submit={submit}
+	action="https://formsubmit.co/403caa07c15aabfe7a3dbdc09e083173"
+	method="POST"
+>
 	<Input label="Name" name="name" bind:value={name} placeholder="Name" required />
 	<Input label="Email" name="email" bind:value={email} placeholder="Email" type="email" required />
 	<Input
@@ -25,4 +31,10 @@
 		required
 	/>
 	<Button color="cardinal">Get in touch</Button>
+
+	<!-- FormSubmit submission metadata  -->
+	<input type="text" name="_honey" style="display:none" />
+	<input type="hidden" name="_next" value="https://yourdomain.co/thanks.html" />
+	<input type="hidden" name="_subject" value="New submission!" />
+	<input type="hidden" name="_template" value="table" />
 </form>

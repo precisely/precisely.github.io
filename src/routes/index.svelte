@@ -9,7 +9,7 @@
 </script>
 
 <Seo
-	title="Precisely | Personalized Perioperative Care Platform"
+	title="Precisely Health | Personalized Perioperative Care"
 	description="Orchestrate surgical care journeys and deploy evidence-based best practices at scale."
 />
 

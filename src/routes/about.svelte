@@ -7,7 +7,10 @@
 	import Seo from '$lib/components/Seo.svelte';
 </script>
 
-<Seo title="About Us | Precisely" description="We're a team of doctors, engineers and innovators" />
+<Seo
+	title="About Us | Precisely Health"
+	description="We're a team of doctors, engineers and innovators"
+/>
 
 <Section>
 	<Container>

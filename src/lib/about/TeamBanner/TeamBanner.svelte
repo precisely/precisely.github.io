@@ -8,7 +8,7 @@
 	<Container>
 		<h1 class="content-4xl text-ink text-center mb-8">Our Team</h1>
 		<p class="content-xl text-grey700 mb-16 text-center">
-			We're a team of doctors, scientists, and innovators who believe in building a brighter
+			We're a team of doctors, engineers, and innovators who believe in building a brighter
 			healthcare future.
 		</p>
 		<div class="flex flex-wrap justify-center gap-16">

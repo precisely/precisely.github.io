@@ -2,10 +2,11 @@
 	import Container from '$lib/components/Container.svelte';
 	import Section from '$lib/components/Section.svelte';
 	import Seo from '$lib/components/Seo.svelte';
-	import Typeform from '$lib/contact/Typeform.svelte';
+	import ContactForm from '$lib/contact/ContactForm.svelte';
+	// import Typeform from '$lib/contact/Typeform.svelte';
 </script>
 
-<Seo title="Contact Us | Precisely" description="Have a question? We'd love to connect!" />
+<Seo title="Contact Us | Precisely Health" description="Have a question? We'd love to connect!" />
 
 <Section>
 	<Container>
@@ -20,7 +21,8 @@
 					We'd love to chat and learn how we can work together to build a better healthcare system.
 				</p>
 
-				<Typeform />
+				<ContactForm />
+				<!-- <Typeform /> -->
 			</div>
 		</div>
 	</Container>
