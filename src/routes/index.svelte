@@ -9,8 +9,8 @@
 </script>
 
 <Seo
-	title="Precisely Health | Personalized Perioperative Care"
-	description="Orchestrate surgical care journeys and deploy evidence-based best practices at scale."
+	title="Precisely Health | Orchestrate Perioperative Care"
+	description="Personalize surgical care journeys and deploy evidence-based best practices at scale."
 />
 
 <LandingBanner />
