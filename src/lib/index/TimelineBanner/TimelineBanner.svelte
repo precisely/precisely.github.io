@@ -118,7 +118,7 @@
 							team.
 						</p>
 						<a sveltekit:prefetch href={'/contact'}>
-							<Button color="cardinal">How It Works</Button>
+							<Button color="cardinal">Contact Us</Button>
 						</a>
 					</div>
 					<div class="flex-none md:w-[512px]">
