@@ -11,7 +11,7 @@
 				<div class="inline-block h-8 mb-6">
 					<Logo height="100%" />
 				</div>
-				<a href="mailto:info@precisely.com" class="content-lg mb-8"> info@precisely.com </a>
+				<a href="mailto:info@precise.ly" class="content-lg mb-8"> info@precise.ly </a>
 				<p class="content-lg">
 					Address: <br />
 					301 Howard St Suite 950 <br />

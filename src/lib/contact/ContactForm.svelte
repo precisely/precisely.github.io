@@ -2,6 +2,7 @@
 <script lang="ts">
 	import Button from '$lib/components/Button/Button.svelte';
 	import Input from '$lib/components/Input/Input.svelte';
+	import MultilineInput from '$lib/components/Input/MultilineInput.svelte';
 
 	let name: string = '';
 	let email: string = '';
@@ -22,12 +23,11 @@
 >
 	<Input label="Name" name="name" bind:value={name} placeholder="Name" required />
 	<Input label="Email" name="email" bind:value={email} placeholder="Email" type="email" required />
-	<Input
+	<MultilineInput
 		label="Message"
 		name="message"
 		bind:value={message}
 		placeholder="Message"
-		type="text"
 		required
 	/>
 	<Button color="cardinal">Get in touch</Button>

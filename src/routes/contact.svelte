@@ -25,11 +25,7 @@
 				<!-- <Typeform /> -->
 			</div>
 			<div class="hidden flex-1 lg:block h-full md:ml-32">
-				<img
-					class="max-h-64 h-full lg:w-auto object-contain"
-					src="./imgs/graphics/contact.svg"
-					alt="Nurse at desk"
-				/>
+				<img class="object-contain" src="./imgs/graphics/contact.svg" alt="Nurse at desk" />
 			</div>
 		</div>
 	</Container>

@@ -40,7 +40,7 @@
 				</span>
 				Equipping every patient with the tools and resources they need to reach their unique health goals
 			</Panel>
-			<Panel title="Provier wellness">
+			<Panel title="Provider wellness">
 				<span slot="graphic">
 					<ProviderSvg />
 				</span>

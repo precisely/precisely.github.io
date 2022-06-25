@@ -6,3 +6,7 @@
 .header-link {
 	@apply block pt-4 pb-[14px] md:p-0 font-semibold text-xl text-ink w-full;
 }
+
+.header-link.active {
+	@apply text-azure font-bold;
+}
