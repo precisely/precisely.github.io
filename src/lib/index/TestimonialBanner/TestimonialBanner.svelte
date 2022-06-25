@@ -14,19 +14,19 @@
 
 	const testimonials = [
 		{
-			image: 'imgs/don.png',
+			image: 'imgs/team/don.png',
 			quote: "Look, I'm not making this sh*t up.",
 			name: 'Don Turner',
 			title: 'CEO, Neosinus Health'
 		},
 		{
-			image: 'imgs/don.png',
+			image: 'imgs/team/don.png',
 			quote: 'B',
 			name: 'Don Turner',
 			title: 'CEO, Neosinus Health'
 		},
 		{
-			image: 'imgs/don.png',
+			image: 'imgs/team/don.png',
 			quote: 'C',
 			name: 'Don Turner',
 			title: 'CEO, Neosinus Health'

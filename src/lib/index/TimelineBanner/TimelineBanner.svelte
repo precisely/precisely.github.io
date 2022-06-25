@@ -3,7 +3,6 @@
 	import Container from '$lib/components/Container.svelte';
 
 	import RedWhiteEscutcheon from '$lib/svgs/escutcheon/red-white.svg';
-	import ChevronRight from '$lib/svgs/icons/patient/chevron-right.svg';
 
 	import Button from '$lib/components/Button/Button.svelte';
 	import TimelineItem from './TimelineItem.svelte';
@@ -12,6 +11,12 @@
 	import { tweened } from 'svelte/motion';
 	import { cubicOut } from 'svelte/easing';
 	import BlockDivider from '$lib/components/BlockDivider.svelte';
+
+	// Graphics
+	// import PreoperativeGraphic from './preoperative.svg';
+	// import SurgicalGraphic from './surgical.svg';
+	// import PostDischargeGraphic from './post-discharge.svg';
+	// import OptimizeGraphic from './optimize.svg';
 
 	import './timelineBanner.css';
 
@@ -63,20 +68,44 @@
 				</div>
 			</TimelineGrid>
 			<TimelineItem i={1} category="Preoperative Evaluation" title="Eliminate gaps in care.">
-				We ensure every patient receives a consistent and appropriate preoperative evaluation that
-				follows the latest evidence-based guidelines.
+				<span slot="graphic">
+					<!-- <PreoperativeGraphic width="100%" max-width="400px" /> -->
+					<img
+						class="object-contain max-h-64 md:max-h-auto"
+						src="./imgs/graphics/preoperative.svg"
+						alt="Preoperative Evaluation"
+					/>
+				</span>
+				We ensure every patient receives a consistent and appropriate preoperative evaluation that follows
+				the latest evidence-based guidelines.
 			</TimelineItem>
 			<TimelineItem i={2} category="Surgical Optimization" title="Prepare for surgery.">
-				Patients are coached through personalized prehabilitation plans that optimize their
-				presurgical health across five essential, patient-centered domains.
+				<span slot="graphic">
+					<!-- <SurgicalGraphic width="100%" max-width="400px" /> -->
+					<img
+						class="object-contain max-h-64 md:max-h-auto"
+						src="./imgs/graphics/surgical.svg"
+						alt="Surgical Optimization"
+					/>
+				</span>
+				Patients are coached through personalized prehabilitation plans that optimize their presurgical
+				health across five essential, patient-centered domains.
 			</TimelineItem>
 			<TimelineItem
 				i={3}
 				category="Post-Discharge Monitoring"
 				title="Prioritize continuity of care."
 			>
-				Patient engagement extends beyond discharge to track recovery progress and treatment
-				adherence, preventing complications before they arise.
+				<span slot="graphic">
+					<!-- <PostDischargeGraphic width="100%" /> -->
+					<img
+						class="object-contain max-h-64 md:max-h-auto"
+						src="./imgs/graphics/post-discharge.svg"
+						alt="Post-Discharge Monitoring"
+					/>
+				</span>
+				Patient engagement extends beyond discharge to track recovery progress and treatment adherence,
+				preventing complications before they arise.
 			</TimelineItem>
 
 			<TimelineGrid>
@@ -92,7 +121,13 @@
 							<Button color="cardinal">How It Works</Button>
 						</a>
 					</div>
-					<div class="flex-none bg-cloud h-72 w-72">graphic</div>
+					<div class="flex-none md:w-[512px]">
+						<img
+							class="object-contain max-h-64 md:max-h-auto"
+							src="./imgs/graphics/optimize.svg"
+							alt="Optimize Approach"
+						/>
+					</div>
 				</div>
 			</TimelineGrid>
 		</div>

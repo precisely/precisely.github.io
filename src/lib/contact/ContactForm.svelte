@@ -5,12 +5,12 @@
 
 	let name: string = '';
 	let email: string = '';
-	let comments: string = '';
+	let message: string = '';
 
 	const submit = (e: Event) => {
 		// Using FormSubmit to email form results
 		// e.preventDefault();
-		// console.log('submit!', name, email, comments);
+		// console.log('submit!', name, email, message);
 	};
 </script>
 
@@ -23,10 +23,10 @@
 	<Input label="Name" name="name" bind:value={name} placeholder="Name" required />
 	<Input label="Email" name="email" bind:value={email} placeholder="Email" type="email" required />
 	<Input
-		label="Comments"
-		name="comments"
-		bind:value={comments}
-		placeholder="Comments"
+		label="Message"
+		name="message"
+		bind:value={message}
+		placeholder="Message"
 		type="text"
 		required
 	/>

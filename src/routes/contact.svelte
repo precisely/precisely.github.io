@@ -10,7 +10,7 @@
 
 <Section>
 	<Container>
-		<div class="flex">
+		<div class="flex flex-col-reverse items-center lg:flex-row lg:items-start lg:justify-between">
 			<div class="max-w-md">
 				<h1 class="content-6xl text-ink mb-8">Let's connect!</h1>
 				<p class="content-xl text-grey700 mb-8">
@@ -23,6 +23,13 @@
 
 				<ContactForm />
 				<!-- <Typeform /> -->
+			</div>
+			<div class="hidden flex-1 lg:block h-full md:ml-32">
+				<img
+					class="max-h-64 h-full lg:w-auto object-contain"
+					src="./imgs/graphics/contact.svg"
+					alt="Nurse at desk"
+				/>
 			</div>
 		</div>
 	</Container>

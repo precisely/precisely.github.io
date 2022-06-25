@@ -32,11 +32,11 @@
 	</span>
 
 	<div
-		class="flex flex-col md:flex-row justify-between gap-8 md:gap-32"
+		class="flex flex-col md:flex-row justify-between gap-8 md:gap-16"
 		use:scrollTrigger={{ onEnter, onExit }}
 		style={fade($alpha)}
 	>
-		<div class="flex-none bg-cloud h-72 w-72">
+		<div class="flex-none md:w-96 lg:w-[456px]">
 			<slot name="graphic" />
 		</div>
 		<div class="md:max-w-md">

@@ -11,3 +11,10 @@ export const fromRight: AnimateFunction = (t) => {
   opacity: ${t};
   `;
 };
+
+export const fromBottom: AnimateFunction = (t) => {
+	return `
+  transform: translate(0,${20 * (1 - t)}%);
+  opacity: ${t};
+  `;
+};

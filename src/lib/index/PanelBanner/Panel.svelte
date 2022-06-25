@@ -1,4 +1,6 @@
 <script lang="ts">
+	import ScrollAnimate from '$lib/components/ScrollAnimate.svelte';
+
 	export let title: string;
 </script>
 

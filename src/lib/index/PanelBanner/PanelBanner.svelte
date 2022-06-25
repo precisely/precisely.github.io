@@ -10,6 +10,7 @@
 	import FilesSvg from './files.svg';
 	import ChartSvg from './chart.svg';
 	import ProviderSvg from './provider.svg';
+	import ScrollAnimate from '$lib/components/ScrollAnimate.svelte';
 </script>
 
 <Section id="panel-banner" classes="bg-peppermint">
