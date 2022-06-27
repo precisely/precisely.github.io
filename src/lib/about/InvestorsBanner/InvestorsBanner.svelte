@@ -12,7 +12,7 @@
 		<div class="flex flex-wrap justify-center gap-16">
 			<Investor
 				name="Hacking Medicine Venture Capital"
-				src="imgs/investors/hackmed.svg"
+				src="imgs/investors/hackmed.png"
 				link="https://hackmed.vc/"
 			/>
 			<Investor name="Schox" src="imgs/investors/schox.svg" link="https://www.schox.com/" />
@@ -24,7 +24,7 @@
 			<Investor name="Voyagers" src="imgs/investors/voyagers.svg" link="https://voyagers.io/" />
 			<Investor
 				name="North South Ventures"
-				src="imgs/investors/nsv.svg"
+				src="imgs/investors/nsv.png"
 				link="https://www.northsouthvc.com/"
 			/>
 		</div>
