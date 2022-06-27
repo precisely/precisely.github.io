@@ -1,4 +1,5 @@
 <script lang="ts">
+	import InvestorsBanner from '$lib/about/InvestorsBanner/InvestorsBanner.svelte';
 	import JoinBanner from '$lib/about/JoinBanner/JoinBanner.svelte';
 	import MissionBanner from '$lib/about/MissionBanner/MissionBanner.svelte';
 	import TeamBanner from '$lib/about/TeamBanner/TeamBanner.svelte';
@@ -24,4 +25,5 @@
 </Section>
 <MissionBanner />
 <TeamBanner />
+<InvestorsBanner />
 <JoinBanner />
