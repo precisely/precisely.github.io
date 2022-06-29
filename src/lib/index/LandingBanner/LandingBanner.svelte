@@ -22,7 +22,8 @@
 			<ScrollAnimate>
 				<div class="max-w-xl mb-8 md:mb-0">
 					<h1 class="content-6xl mb-4">
-						<GradientText>Improve outcomes.</GradientText> <br />
+						<span class="whitespace-nowrap"><GradientText>Improve outcomes.</GradientText></span>
+						<br />
 						Reduce costs.
 					</h1>
 					<BlockDivider classes="bg-cardinal mb-8" />

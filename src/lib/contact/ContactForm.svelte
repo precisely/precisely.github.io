@@ -18,7 +18,7 @@
 <form
 	class="flex flex-col mb-16"
 	on:submit={submit}
-	action="https://formsubmit.co/403caa07c15aabfe7a3dbdc09e083173"
+	action="https://formsubmit.co/95b8d681fae9b17291e68f4af256f772"
 	method="POST"
 >
 	<Input label="Name" name="name" bind:value={name} placeholder="Name" required />
@@ -34,7 +34,7 @@
 
 	<!-- FormSubmit submission metadata  -->
 	<input type="text" name="_honey" style="display:none" />
-	<input type="hidden" name="_next" value="https://yourdomain.co/thanks.html" />
-	<input type="hidden" name="_subject" value="New submission!" />
+	<input type="hidden" name="_next" value="https://www.precise.ly/contact" />
+	<input type="hidden" name="_subject" value="Website Form Submission" />
 	<input type="hidden" name="_template" value="table" />
 </form>
