@@ -17,8 +17,8 @@
 	<Container>
 		<div class="flex items-center justify-center">
 			<h1 class="content-4xl text-center text-ink max-w-4xl">
-				At Precisely, we're re-writing the future for care delivery, patient experience, and health
-				outcomes.
+				At Precisely, we're building a digitally-powered future for care delivery, patient
+				experience, and health outcomes.
 			</h1>
 		</div>
 	</Container>

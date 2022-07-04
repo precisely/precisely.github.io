@@ -34,7 +34,7 @@
 
 	<!-- FormSubmit submission metadata  -->
 	<input type="text" name="_honey" style="display:none" />
-	<input type="hidden" name="_next" value="https://www.precise.ly/contact" />
+	<!-- <input type="hidden" name="_next" value="https://www.precise.ly/contact" /> -->
 	<input type="hidden" name="_subject" value="Website Form Submission" />
 	<input type="hidden" name="_template" value="table" />
 </form>

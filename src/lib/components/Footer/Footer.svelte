@@ -8,9 +8,9 @@
 	<Container>
 		<div class="flex flex-col md:flex-row justify-between mb-8 gap-8">
 			<div class="flex flex-col">
-				<div class="inline-block h-8 mb-6">
+				<a sveltekit:prefetch href="/" class="inline-block h-8 mb-6">
 					<Logo height="100%" />
-				</div>
+				</a>
 				<a href="mailto:info@precise.ly" class="content-lg mb-8"> info@precise.ly </a>
 				<p class="content-lg">
 					Address: <br />
