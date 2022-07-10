@@ -3,6 +3,7 @@
 	import Section from '$lib/components/Section.svelte';
 	import Panel from './Panel.svelte';
 
+	import ScrollAnimate from '$lib/components/ScrollAnimate.svelte';
 	import HeadsetSvg from './headset.svg';
 	import PeopleSvg from './people.svg';
 	import TargetSvg from './target.svg';
@@ -11,15 +12,19 @@
 <Section>
 	<Container>
 		<div class="flex flex-col items-center">
-			<h1 class="content-4xl text-ink mb-16 text-center">Modular solution for the entire team</h1>
+			<ScrollAnimate>
+				<h1 class="content-4xl text-ink mb-16 text-center">Modular solution for the entire team</h1>
+			</ScrollAnimate>
 			<div class="flex flex-col lg:flex-row w-full items-center justify-between mb-16 gap-32">
-				<div class="flex-1">
-					<img
-						class="max-h-[456px] md:h-[456px] w-full object-contain"
-						src="./imgs/graphics/meetPia/modularSolution.svg"
-						alt="Modular Solution"
-					/>
-				</div>
+				<ScrollAnimate>
+					<div class="flex-1">
+						<img
+							class="max-h-[456px] md:h-[456px] w-full object-contain"
+							src="./imgs/graphics/meetPia/modularSolution.svg"
+							alt="Modular Solution"
+						/>
+					</div>
+				</ScrollAnimate>
 
 				<div class="flex flex-col gap-16">
 					<Panel category="For Patients" title="Precision Coaching">

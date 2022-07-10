@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Button from '$lib/components/Button/Button.svelte';
 	import Container from '$lib/components/Container.svelte';
+	import ScrollAnimate from '$lib/components/ScrollAnimate.svelte';
 	import Section from '$lib/components/Section.svelte';
 	import Panel from './Panel.svelte';
 </script>
@@ -8,12 +9,16 @@
 <Section classes="bg-peppermint">
 	<Container>
 		<div class="flex flex-col items-center">
-			<h1 class="content-4xl text-ink mb-8 text-center">Virtual Patient Navigation at Scale</h1>
-			<p class="content-xl text-grey700 max-w-2xl mb-16 text-center">
-				We keep patients and care teams in sync. PIA automatically deploys evidence-based best
-				protocols from end-to-end, has rich interactions with patients and caregivers, and digitally
-				coordinates operations across the entire care continuum.
-			</p>
+			<ScrollAnimate>
+				<h1 class="content-4xl text-ink mb-8 text-center">Virtual Patient Navigation at Scale</h1>
+			</ScrollAnimate>
+			<ScrollAnimate>
+				<p class="content-xl text-grey700 max-w-2xl mb-16 text-center">
+					We keep patients and care teams in sync. PIA automatically deploys evidence-based best
+					protocols from end-to-end, has rich interactions with patients and caregivers, and
+					digitally coordinates operations across the entire care continuum.
+				</p>
+			</ScrollAnimate>
 
 			<div class="flex flex-col md:flex-row mb-16 gap-8 md:gap-32">
 				<Panel

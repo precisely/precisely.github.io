@@ -3,6 +3,7 @@
 	import Section from '$lib/components/Section.svelte';
 	import Panel from './Panel.svelte';
 
+	import ScrollAnimate from '$lib/components/ScrollAnimate.svelte';
 	import CompliantSvg from './compliant.svg';
 	import IntegratedSvg from './integrated.svg';
 	import InteroperableSvg from './interoperable.svg';
@@ -12,10 +13,14 @@
 <Section>
 	<Container>
 		<div class="flex flex-col items-center">
-			<h1 class="content-4xl text-ink mb-8 text-center">Get started quickly and securely</h1>
-			<p class="content-xl text-grey700 max-w-2xl mb-16 text-center">
-				We'll take care of the technology, so you can take care of your patients
-			</p>
+			<ScrollAnimate>
+				<h1 class="content-4xl text-ink mb-8 text-center">Get started quickly and securely</h1>
+			</ScrollAnimate>
+			<ScrollAnimate>
+				<p class="content-xl text-grey700 max-w-2xl mb-16 text-center">
+					We'll take care of the technology, so you can take care of your patients
+				</p>
+			</ScrollAnimate>
 
 			<div class="flex flex-col md:grid md:grid-cols-2 gap-24">
 				<Panel title="Integrated">
