@@ -2,10 +2,11 @@
 	import LandingBanner from '$lib/index/LandingBanner/LandingBanner.svelte';
 	import TimelineBanner from '$lib/index/TimelineBanner/TimelineBanner.svelte';
 	// import TestimonialBanner from '$lib/index/TestimonialBanner/TestimonialBanner.svelte';
-	import PanelBanner from '$lib/index/PanelBanner/PanelBanner.svelte';
-	import CtaBanner from '$lib/index/CtaBanner/CtaBanner.svelte';
-	import EmpowerBanner from '$lib/index/EmpowerBanner/EmpowerBanner.svelte';
+	import Button from '$lib/components/Button/Button.svelte';
+	import CtaBanner from '$lib/components/CtaBanner/CtaBanner.svelte';
 	import Seo from '$lib/components/Seo.svelte';
+	import EmpowerBanner from '$lib/index/EmpowerBanner/EmpowerBanner.svelte';
+	import PanelBanner from '$lib/index/PanelBanner/PanelBanner.svelte';
 </script>
 
 <Seo
@@ -18,4 +19,13 @@
 <TimelineBanner />
 <EmpowerBanner />
 <!-- <TestimonialBanner /> -->
-<CtaBanner />
+<CtaBanner>
+	<span slot="title">
+		Every patient is unique.<br />
+		Their care should be too.
+	</span>
+	Get started with the scalable solution for value-based care today!
+	<span slot="button">
+		<Button color="cardinal">Contact Us</Button>
+	</span>
+</CtaBanner>

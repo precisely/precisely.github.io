@@ -10,7 +10,7 @@
 
 <Seo
 	title="About Us | Precisely Health"
-	description="We're a team of doctors, engineers and innovators"
+	description="We're a team of doctors, engineers and innovators passionate about improving healthcare."
 />
 
 <Section>
