@@ -55,7 +55,7 @@
 					<RedWhiteEscutcheon height={'3rem'} width={'3rem'} />
 				</span>
 				<div>
-					<h1 class="content-4xl text-ink mb-16 text-center">
+					<h1 class="content-4xl text-ink mb-16 text-center md:text-left">
 						Orchestrate care across the entire surgical journey
 					</h1>
 					<p class="content-xl text-grey700">

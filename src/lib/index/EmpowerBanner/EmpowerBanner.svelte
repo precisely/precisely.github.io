@@ -1,21 +1,26 @@
 <script lang="ts">
-	import Section from '$lib/components/Section.svelte';
 	import Container from '$lib/components/Container.svelte';
+	import Section from '$lib/components/Section.svelte';
 	import PlusColors from '$lib/svgs/plus-colors.svg';
 	import Panel from './Panel.svelte';
 
-	import TimerSvg from './timer.svg';
+	import Button from '$lib/components/Button/Button.svelte';
+	import ScrollAnimate from '$lib/components/ScrollAnimate.svelte';
 	import EngagementSvg from './engagement.svg';
 	import LockSvg from './lock.svg';
-	import Button from '$lib/components/Button/Button.svelte';
+	import TimerSvg from './timer.svg';
 </script>
 
 <Section classes="bg-puff/50">
 	<Container>
-		<div class="flex flex-col items-center justify-center mb-16">
-			<h1 class="content-4xl text-center mb-8">Simplify the process of delivering complex care</h1>
-			<PlusColors height="2rem" />
-		</div>
+		<ScrollAnimate>
+			<div class="flex flex-col items-center justify-center mb-16">
+				<h1 class="content-4xl text-center mb-8">
+					Simplify the process of delivering complex care
+				</h1>
+				<PlusColors height="2rem" />
+			</div>
+		</ScrollAnimate>
 		<div class="flex flex-col items-center md:flex-row justify-between gap-8 mb-16">
 			<Panel title="Improved efficiency">
 				<span slot="graphic">

@@ -6,21 +6,23 @@
 	import PlusColors from '$lib/svgs/plus-colors.svg';
 	import Panel from './Panel.svelte';
 
-	import HandsHeartSvg from './hands-heart.svg';
-	import FilesSvg from './files.svg';
-	import ChartSvg from './chart.svg';
-	import ProviderSvg from './provider.svg';
 	import ScrollAnimate from '$lib/components/ScrollAnimate.svelte';
+	import ChartSvg from './chart.svg';
+	import FilesSvg from './files.svg';
+	import HandsHeartSvg from './hands-heart.svg';
+	import ProviderSvg from './provider.svg';
 </script>
 
 <Section id="panel-banner" classes="bg-peppermint">
 	<Container>
-		<div class="flex flex-col items-center justify-center mb-16">
-			<h1 class="content-4xl text-center mb-8">
-				The technology-driven solution for value-based care
-			</h1>
-			<PlusColors height="2rem" />
-		</div>
+		<ScrollAnimate>
+			<div class="flex flex-col items-center justify-center mb-16">
+				<h1 class="content-4xl text-center mb-8">
+					The technology-driven solution for value-based care
+				</h1>
+				<PlusColors height="2rem" />
+			</div>
+		</ScrollAnimate>
 		<div class="flex flex-col items-center md:grid md:grid-cols-2 gap-16 mb-16">
 			<Panel title="Best-in-class patient outcomes">
 				<span slot="graphic">
