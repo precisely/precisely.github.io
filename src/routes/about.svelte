@@ -4,6 +4,7 @@
 	import MissionBanner from '$lib/about/MissionBanner/MissionBanner.svelte';
 	import TeamBanner from '$lib/about/TeamBanner/TeamBanner.svelte';
 	import Container from '$lib/components/Container.svelte';
+	import ScrollAnimate from '$lib/components/ScrollAnimate.svelte';
 	import Section from '$lib/components/Section.svelte';
 	import Seo from '$lib/components/Seo.svelte';
 </script>
@@ -16,10 +17,12 @@
 <Section>
 	<Container>
 		<div class="flex items-center justify-center">
-			<h1 class="content-4xl text-center text-ink max-w-4xl">
-				At Precisely, we're building a digitally-powered future for care delivery, patient
-				experience, and health outcomes.
-			</h1>
+			<ScrollAnimate>
+				<h1 class="content-4xl text-center text-ink max-w-4xl">
+					At Precisely, we're building a digitally-powered future for care delivery, patient
+					experience, and health outcomes.
+				</h1>
+			</ScrollAnimate>
 		</div>
 	</Container>
 </Section>

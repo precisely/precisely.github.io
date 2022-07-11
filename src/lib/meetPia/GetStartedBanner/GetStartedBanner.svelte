@@ -33,7 +33,7 @@
 					<span slot="graphic">
 						<CompliantSvg />
 					</span>
-					We meet the highest HIPAA, HITRUST and SOC/2 data security standards
+					We meet the highest HIPAA, HITRUST, and SOC/2 data security standards
 				</Panel>
 				<Panel title="Secure">
 					<span slot="graphic">

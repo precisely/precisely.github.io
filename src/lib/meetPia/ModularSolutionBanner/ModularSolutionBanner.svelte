@@ -16,22 +16,20 @@
 				<h1 class="content-4xl text-ink mb-16 text-center">Modular solution for the entire team</h1>
 			</ScrollAnimate>
 			<div class="flex flex-col lg:flex-row w-full items-center justify-between mb-16 gap-32">
-				<ScrollAnimate>
-					<div class="flex-1">
-						<img
-							class="max-h-[456px] md:h-[456px] w-full object-contain"
-							src="./imgs/graphics/meetPia/modularSolution.svg"
-							alt="Modular Solution"
-						/>
-					</div>
-				</ScrollAnimate>
+				<div class="flex-1">
+					<img
+						class="max-h-[456px] md:h-[456px] w-full object-contain"
+						src="./imgs/graphics/meetPia/modularSolution.svg"
+						alt="Modular Solution"
+					/>
+				</div>
 
 				<div class="flex flex-col gap-16">
 					<Panel category="For Patients" title="Precision Coaching">
 						<span slot="graphic">
 							<TargetSvg />
 						</span>
-						Rich content libraries and advanced conversational AI maximizes patient engagement, adherence,
+						Rich content libraries and advanced conversational AI maximize patient engagement, adherence,
 						and outcomes
 					</Panel>
 
