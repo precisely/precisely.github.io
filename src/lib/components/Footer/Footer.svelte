@@ -20,7 +20,7 @@
 			</div>
 			<div class="flex flex-col justify-between h-auto gap-4">
 				<ul class="flex flex-col md:flex-row gap-4 md:gap-8 md:justify-end mb-8">
-					<FooterLink pathname="/meetPia">Meet PIA</FooterLink>
+					<FooterLink pathname="/technology">Technology</FooterLink>
 					<FooterLink pathname="/about">About</FooterLink>
 					<FooterLink pathname="/contact">Contact</FooterLink>
 				</ul>

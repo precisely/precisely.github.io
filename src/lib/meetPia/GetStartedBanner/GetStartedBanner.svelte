@@ -18,7 +18,7 @@
 			</ScrollAnimate>
 			<ScrollAnimate>
 				<p class="content-xl text-grey700 max-w-2xl mb-16 text-center">
-					We'll take care of the technology, so you can take care of your patients
+					We'll take care of the technology, so you can take care of your patients.
 				</p>
 			</ScrollAnimate>
 
@@ -27,25 +27,25 @@
 					<span slot="graphic">
 						<IntegratedSvg />
 					</span>
-					Sync seamlessly with your existing EHR to eliminate operational redundancies
+					Sync seamlessly with your existing EHR to eliminate operational redundancies.
 				</Panel>
 				<Panel title="Compliant">
 					<span slot="graphic">
 						<CompliantSvg />
 					</span>
-					We meet the highest HIPAA, HITRUST, and SOC/2 data security standards
+					We meet the highest HIPAA, HITRUST, and SOC/2 data security standards.
 				</Panel>
 				<Panel title="Secure">
 					<span slot="graphic">
 						<SecureSvg />
 					</span>
-					End-to-end encryption keeps your patient data protected at all times
+					End-to-end encryption keeps your patient data protected at all times.
 				</Panel>
 				<Panel title="Interoperable">
 					<span slot="graphic">
 						<InteroperableSvg />
 					</span>
-					Collect and record data from wearables and home monitoring devices
+					Collect and record data from wearables and home monitoring devices.
 				</Panel>
 			</div>
 		</div>

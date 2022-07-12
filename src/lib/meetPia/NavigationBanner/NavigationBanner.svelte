@@ -31,7 +31,7 @@
 
 				<Panel img="./imgs/graphics/meetPia/meetPatients.svg" title="Meet patients where they are">
 					PIA extends care beyond the hospital walls, delivering care plans that encompass each
-					patient's condition, risks, social factors, and health goals
+					patient's condition, risks, social factors, and health goals.
 				</Panel>
 			</div>
 

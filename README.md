@@ -36,6 +36,15 @@ Make sure to preview on Safari before deployment. Known bugs are
 
 - SVG clip-path doesn't render correctly - SVG's with clip-path attributes are clipped beyond their specifications after a page rerender. Seems to be resolved by removing the clip-path attribute entirely.
 
+## Surge.sh Preview
+
+To deploy a preview version of the site, make sure to build the app first. Then,
+go into the build folder and run the following command:
+
+```
+surge --domain precisely.surge.sh
+```
+
 ## Updating SVGs
 
 Some SVGs may not be updated through hot reloading. Clear the svelte-kit cache by running the command below.

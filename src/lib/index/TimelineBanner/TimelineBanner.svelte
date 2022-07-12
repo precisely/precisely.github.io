@@ -116,7 +116,7 @@
 							Precisely delivers a comprehensive and connected experience for the patient and care
 							team.
 						</p>
-						<a sveltekit:prefetch href={'/meetPia'}>
+						<a sveltekit:prefetch href={'/technology'}>
 							<Button color="cardinal">How it Works</Button>
 						</a>
 					</div>

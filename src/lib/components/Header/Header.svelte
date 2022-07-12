@@ -37,7 +37,7 @@
 				} overflow-y-hidden transition-all menu-bg`}
 			>
 				<Container>
-					<HeaderLink pathname="/meetPia" onClick={toggleMenu}>Meet PIA</HeaderLink>
+					<HeaderLink pathname="/technology" onClick={toggleMenu}>Technology</HeaderLink>
 					<HeaderLink pathname="/about" onClick={toggleMenu}>About</HeaderLink>
 					<HeaderLink pathname="/contact" onClick={toggleMenu}>Contact</HeaderLink>
 				</Container>
@@ -45,7 +45,7 @@
 
 			<!-- shown when screen size greater than md -->
 			<ul class="hidden md:flex items-center gap-16">
-				<HeaderLink pathname="/meetPia">Meet PIA</HeaderLink>
+				<HeaderLink pathname="/technology">Technology</HeaderLink>
 				<HeaderLink pathname="/about">About</HeaderLink>
 				<HeaderLink pathname="/contact">
 					<Button color="cardinal">Contact</Button>

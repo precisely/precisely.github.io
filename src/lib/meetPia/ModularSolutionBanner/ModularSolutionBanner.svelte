@@ -30,7 +30,7 @@
 							<TargetSvg />
 						</span>
 						Rich content libraries and advanced conversational AI maximize patient engagement, adherence,
-						and outcomes
+						and outcomes.
 					</Panel>
 
 					<Panel category="For Providers" title="Decision Support">
@@ -38,7 +38,7 @@
 							<HeadsetSvg />
 						</span>
 						Less data, more insight. Actionable alerts and automatic risk stratification keep clinicians
-						on track and on time
+						on track and on time.
 					</Panel>
 
 					<Panel category="For Systems" title="Connected Teams">
@@ -46,7 +46,7 @@
 							<PeopleSvg />
 						</span>
 						Closed loop communication keeps cross-functional teams informed, prevents data siloing, and
-						eliminates gaps in care
+						eliminates gaps in care.
 					</Panel>
 				</div>
 			</div>

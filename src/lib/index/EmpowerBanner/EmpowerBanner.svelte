@@ -16,7 +16,7 @@
 		<ScrollAnimate>
 			<div class="flex flex-col items-center justify-center mb-16">
 				<h1 class="content-4xl text-center mb-8">
-					Simplify the process of delivering complex care
+					Simplify the process of delivering complex care.
 				</h1>
 				<PlusColors height="2rem" />
 			</div>
@@ -26,19 +26,19 @@
 				<span slot="graphic">
 					<TimerSvg height="100%" />
 				</span>
-				We handle routine and time-consuming administrative tasks
+				We handle routine and time-consuming administrative tasks.
 			</Panel>
 			<Panel title="Superior engagement">
 				<span slot="graphic">
 					<EngagementSvg height="100%" />
 				</span>
-				We empower your patients with customized tools and resources
+				We empower your patients with customized tools and resources.
 			</Panel>
 			<Panel title="Data security">
 				<span slot="graphic">
 					<LockSvg height="100%" />
 				</span>
-				End-to-end encryption and industry leading data privacy practices
+				End-to-end encryption and industry leading data privacy practices.
 			</Panel>
 		</div>
 		<a sveltekit:prefetch href={'/contact'}>
