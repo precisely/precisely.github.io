@@ -3,6 +3,6 @@
 	export let id: string | null = null;
 </script>
 
-<section {id} class={`relative flex items-center py-24 md:py-32 ${classes}`}>
+<section {id} class={`max-w-full relative flex items-center py-16 md:py-24 lg:py-32 ${classes}`}>
 	<slot />
 </section>

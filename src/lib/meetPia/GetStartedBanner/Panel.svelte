@@ -5,8 +5,8 @@
 </script>
 
 <ScrollAnimate>
-	<div class="flex flex-col items-center max-w-sm">
-		<div class="mb-8 w-16 h-16">
+	<div class="flex flex-col items-center max-w-xs">
+		<div class="mb-4 w-16 h-16">
 			<slot name="graphic" />
 		</div>
 		<h4 class="content-3xl-sb mb-2 text-ink text-center">{title}</h4>

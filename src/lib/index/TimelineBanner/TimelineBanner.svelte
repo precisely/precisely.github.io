@@ -1,17 +1,16 @@
 <script lang="ts">
-	import TimelineGrid from '$lib/index/TimelineBanner/TimelineGrid.svelte';
 	import Container from '$lib/components/Container.svelte';
+	import TimelineGrid from '$lib/index/TimelineBanner/TimelineGrid.svelte';
 
 	import RedWhiteEscutcheon from '$lib/svgs/escutcheon/red-white.svg';
 
+	import BlockDivider from '$lib/components/BlockDivider.svelte';
 	import Button from '$lib/components/Button/Button.svelte';
+	import { cubicOut } from 'svelte/easing';
+	import { tweened } from 'svelte/motion';
+	import TimelineBar from './TimelineBar.svelte';
 	import TimelineItem from './TimelineItem.svelte';
 	import TimelineTail from './TimelineTail.svelte';
-	import TimelineBar from './TimelineBar.svelte';
-	import { tweened } from 'svelte/motion';
-	import { cubicOut } from 'svelte/easing';
-	import BlockDivider from '$lib/components/BlockDivider.svelte';
-
 	// Graphics
 	// import PreoperativeGraphic from './preoperative.svg';
 	// import SurgicalGraphic from './surgical.svg';
@@ -56,7 +55,7 @@
 					<RedWhiteEscutcheon height={'3rem'} width={'3rem'} />
 				</span>
 				<div>
-					<h1 class="content-4xl text-ink mb-16">
+					<h1 class="content-4xl text-ink mb-16 text-center md:text-left">
 						Orchestrate care across the entire surgical journey
 					</h1>
 					<p class="content-xl text-grey700">
@@ -117,8 +116,8 @@
 							Precisely delivers a comprehensive and connected experience for the patient and care
 							team.
 						</p>
-						<a sveltekit:prefetch href={'/contact'}>
-							<Button color="cardinal">Contact Us</Button>
+						<a sveltekit:prefetch href={'/technology'}>
+							<Button color="cardinal">How it Works</Button>
 						</a>
 					</div>
 					<div class="flex-none md:w-[512px]">

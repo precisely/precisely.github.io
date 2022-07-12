@@ -1,18 +1,18 @@
 <script lang="ts">
-	import Container from '$lib/components/Container.svelte';
 	import Button from '$lib/components/Button/Button.svelte';
+	import Container from '$lib/components/Container.svelte';
 
-	import PolygonBackground from '$lib/index/LandingBanner/PolygonBackground/PolygonBackground.svelte';
 	import scrollTo from '$lib/actions/scrollTo';
+	import BlockDivider from '$lib/components/BlockDivider.svelte';
 	import GradientText from '$lib/components/GradientText/GradientText.svelte';
 	import Section from '$lib/components/Section.svelte';
-	import BlockDivider from '$lib/components/BlockDivider.svelte';
+	import PolygonBackground from '$lib/index/LandingBanner/PolygonBackground/PolygonBackground.svelte';
 
 	import ChevronDown from '$lib/svgs/icons/chevron-down.svg';
 	// import LandingGraphic from './landing.svg';
 
-	import colors from '$lib/utils/colors';
 	import ScrollAnimate from '$lib/components/ScrollAnimate.svelte';
+	import colors from '$lib/utils/colors';
 </script>
 
 <Section>
@@ -20,7 +20,7 @@
 	<Container classes="relative">
 		<div class="flex flex-col md:mb-16 md:flex-row items-center justify-between">
 			<ScrollAnimate>
-				<div class="max-w-xl mb-8 md:mb-0">
+				<div class="max-w-lg mb-8 md:mb-0">
 					<h1 class="content-6xl mb-4">
 						<span class="sm:whitespace-nowrap"><GradientText>Improve outcomes.</GradientText></span>
 						<br />

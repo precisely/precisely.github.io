@@ -4,7 +4,7 @@
 }
 
 .header-link {
-	@apply block pt-4 pb-[14px] md:p-0 font-semibold text-xl text-ink w-full;
+	@apply block pt-4 pb-[14px] md:p-0 font-semibold text-xl text-ink w-full whitespace-nowrap;
 }
 
 .header-link.active {
