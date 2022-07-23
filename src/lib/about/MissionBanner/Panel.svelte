@@ -1,15 +1,11 @@
 <script lang="ts">
-	import ScrollAnimate from '$lib/components/ScrollAnimate.svelte';
-
 	export let title: string;
 </script>
 
-<ScrollAnimate>
-	<div class="flex-1 flex flex-col p-8 gap-4 bg-white rounded">
-		<div class="h-16 w-16">
-			<slot name="graphic" />
-		</div>
-		<h4 class="content-3xl-sb text-ink">{title}</h4>
-		<p class="content-xl text-grey700"><slot /></p>
+<div class="flex-1 flex flex-col p-8 gap-4 bg-white rounded">
+	<div class="h-16 w-16">
+		<slot name="graphic" />
 	</div>
-</ScrollAnimate>
+	<h4 class="content-3xl-sb text-ink">{title}</h4>
+	<p class="content-xl text-grey700"><slot /></p>
+</div>
