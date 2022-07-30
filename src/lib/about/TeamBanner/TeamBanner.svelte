@@ -33,12 +33,35 @@
 				<p>Developed microscale CALI, Harvard University</p>
 				<p>PhD Biochemistry/Cell Biology, UCSF</p>
 			</Member>
-			<Member
+      <Member
 				src="imgs/team/jefferson.webp"
 				name="Jefferson Griscavage"
 				title="Director of Product"
 			/>
+      <Member src="imgs/team/don.png" name="Don Turner" title="Business Development">
+				<p>Founder and Managing Director, MedTech Innovations Venture Capital Firm</p>
+        <p>SVP, Global Head, Business Strategy and Commercialization</p>
+				<p>Board Member, Center for the Business of Health, UNC Kenan-Flagler Business School</p>
+		  </Member>
+
+      <Member src="imgs/team/krishnaj.webp" name="Krishnaj Gourab" title="Medical Advisor">
+				<p>Chief Medical Officer, Univ of Maryland Rehab & Ortho</p>
+        <p>Adjunct faculty, Johns Hopkins University</p>
+				<p>Founding independent board director, Rock Health</p>
+		  </Member>
+
 			<Member src="imgs/team/andrew.webp" name="Andrew Wang" title="Software Engineer" />
+      <Member src="imgs/team/mitsu.png" name="Mitsu Hadeishi" title="Software Architecture Advisor">
+				<p>Principal Architect, Twin Health</p>
+        <p>Architect, Heartbeat Health</p>
+				<p>Software Architect, Lark</p>
+		  </Member>
+      <Member src="imgs/team/cv.png" name="Constantine Vetoshev" title="Software Engineering Consultant">
+				<p>Software Engineer, Kindred.ai</p>
+        <p>Software Engineer, Remind.com</p>
+				<p>Software Architect, Jurispect</p>
+		  </Member>
 		</div>
+
 	</Container>
 </Section>
