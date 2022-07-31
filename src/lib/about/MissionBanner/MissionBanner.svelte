@@ -17,7 +17,7 @@
 	<Container>
 		<h1 class="content-4xl text-ink text-center mb-8">Our Mission</h1>
 		<p class="content-xl text-grey700 text-center mb-16">
-			We're a tech company that puts people at the center of everything we do.
+			Precisely is committed to modernizing medicine through the use of intelligent automation.
 		</p>
 		<div class="grid md:grid-cols-2 xl:grid-cols-4 gap-8 mb-16 justify-center">
 			<Panel title="Better outcomes">
