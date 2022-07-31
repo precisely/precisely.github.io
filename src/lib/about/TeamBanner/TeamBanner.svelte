@@ -8,7 +8,7 @@
 	<Container>
 		<h1 class="content-4xl text-ink text-center mb-8">Our Team</h1>
 		<p class="content-xl text-grey700 mb-16 text-center">
-			We're a team of doctors, engineers, and innovators who believe in building a brighter
+			We're a team of disruptors who believe in building a brighter
 			healthcare future.
 		</p>
 		<div class="flex flex-wrap justify-center gap-16">
@@ -28,7 +28,6 @@
 				<p>Founder, DeepDialog (AI for complex conversational flows)</p>
 				<p>Head of growth, Remind (#1 teacher communication app)</p>
 				<p>Led knowledge management, Millennium Pharmaceuticals</p>
-				<p>Designed math model reduction algorithms, SRI</p>
 				<p>Created little b (award-winning systems biology language)</p>
 				<p>Developed microscale CALI, Harvard University</p>
 				<p>PhD Biochemistry/Cell Biology, UCSF</p>
