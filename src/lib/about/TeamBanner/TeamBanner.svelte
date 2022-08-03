@@ -49,7 +49,6 @@
       <Member src="imgs/team/krishnaj.webp" name="Krishnaj Gourab" title="Medical Advisor">
 				<p>Chief Medical Officer, Univ of Maryland Rehab & Ortho</p>
         <p>Adjunct faculty, Johns Hopkins University</p>
-				<p>Founding independent board director, Rock Health</p>
 		  </Member>
 
 			<Member src="imgs/team/andrew.webp" name="Andrew Wang" title="Software Engineer" />
