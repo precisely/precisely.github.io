@@ -7,7 +7,7 @@
 <Section classes="py-0 md:py-0">
 	<Container>
 		<h1 class="content-3xl-sb text-ink text-center mb-16">
-			Backed by the leaders in digital health
+			Backed by leaders in digital health and innovation
 		</h1>
 		<div class="flex flex-wrap justify-center gap-16">
 			<Investor
@@ -21,7 +21,7 @@
 				src="imgs/investors/rockhealth.svg"
 				link="https://rockhealth.com/"
 			/>
-			<Investor name="Voyagers" src="imgs/investors/voyagers.svg" link="https://voyagers.io/" />
+			<Investor name="Voyagers" src="imgs/investors/voyagers.svg" link="https://voyagers.io/health-fund/" />
 			<Investor
 				name="North South Ventures"
 				src="imgs/investors/nsv.png"
