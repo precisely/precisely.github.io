@@ -35,11 +35,14 @@
       <Member
 				src="imgs/team/jefferson.webp"
 				name="Jefferson Griscavage"
-				title="Director of Product"
-			/>
+				title="Director of Product">
+        <p>MD, MBA University of Virginia 2018-2023</p>
+				<p>Founder & CEO Glimmr, Inc</p>
+        <p>Founder & CEO Vuetech Innovations</p>
+      </Member>
       <Member src="imgs/team/don.png" name="Don Turner" title="Business Development">
 				<p>Founder and Managing Director, MedTech Innovations Venture Capital Firm</p>
-        <p>SVP, Global Head, Business Strategy and Commercialization</p>
+        <p>SVP, Global Head, Business Strategy and Commercialization, IBM Watson Health</p>
 				<p>Board Member, Center for the Business of Health, UNC Kenan-Flagler Business School</p>
 		  </Member>
 
